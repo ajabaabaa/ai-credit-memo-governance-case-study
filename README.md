@@ -1,6 +1,34 @@
 # Governing an AI-Assisted Credit Memo Workflow
 
-A banking AI governance case study. I built a small AI-assisted workflow that prepares the financial data behind a commercial credit memo, then tested it the way a bank's model risk team would: trying to break it, and adding controls until it held.
+## Fork notice and attribution
+
+This is a research fork of [KhanShrz/ai-credit-memo-governance-case-study](https://github.com/KhanShrz/ai-credit-memo-governance-case-study). The original case study, Foundry workflow, agent instructions, schema, test logs, answer key, exhibits, and PDF are KhanShrz's work and are retained in their original folders. This fork adds the separate `benchmark-v1/` research extension. First-person statements in the original case-study materials refer to their original author.
+
+**Reuse:** the upstream repository did not include a license, and this fork does not grant reuse rights to the original materials. No license has been added to the extension; contact the respective authors before reusing either body of work.
+
+The original case study describes a developer-led prototype and negative testing. It is not an independent bank model-risk review, regulatory validation, or evidence of compliance with supervisory guidance. See [the control-to-guidance mapping](MODEL-RISK-MAPPING.md) for a bounded discussion of related principles and evidence gaps.
+
+> **Platform lifecycle:** Microsoft says Foundry declarative workflows retire on **December 1, 2026**. This repository is an archived research prototype, not a production dependency. Portable materials include the exported workflow definition, prompts, JSON schema, formulas, and test cases; Foundry visual-canvas configuration, node bindings, retrieval-index connections, and runtime settings require deliberate migration and revalidation. Microsoft's current migration guidance points new development toward Microsoft Agent Framework. [Retirement and migration guidance](https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/vs-code-agents-workflow-low-code).
+
+The original case study by KhanShrz documents a small AI-assisted workflow that prepares the financial data behind a commercial credit memo, then subjects it to developer-led negative testing and control changes.
+
+## Benchmark extension
+
+- [Extension overview and evidence notes](BENCHMARK-EXTENSION.md)
+- [Executive brief (PDF)](benchmark-v1/output/pdf/AI-Assisted-Credit-Memo-Governance-Executive-Brief.pdf)
+- [Expanded article and research roadmap](benchmark-v1/article/AI-Assisted-Credit-Memo-Governance-Case-Study-and-Benchmark.md)
+- [Interactive benchmark dashboard](benchmark-v1/dashboard/index.html)
+- [Synthetic benchmark methods and reproduction guide](benchmark-v1/README.md)
+
+## Read the original evidence
+
+- [Original case study PDF](case-study/AI-Assisted-Credit-Memo-Case-Study.pdf)
+- [Full test log](testing/test-log.md)
+- [Workflow logic and formulas](workflow/workflow-logic.md)
+- [Agent instructions](workflow/agent-instructions.md)
+- [Financial extraction schema](workflow/schemas/financial_extract.json)
+- [Answer keys](testing/answer-keys.md)
+- [Exported Foundry workflow files](workflow/)
 
 **Read the case study:** [case-study/AI-Assisted-Credit-Memo-Case-Study.pdf](case-study/AI-Assisted-Credit-Memo-Case-Study.pdf)
 
@@ -22,7 +50,7 @@ Test borrower: Microsoft Corporation, using its public FY2026 10-K ([SEC EDGAR](
 - **It mapped the wrong line item:** lease interest reported as interest expense, which would have overstated interest coverage (60.9x vs. 50.9x).
 - **A reviewer approved data that was entirely missing.** The workflow now blocks approval automatically when any figure is NOT FOUND.
 - **A formula "passed" on empty data.** It now shows INPUT MISSING - FAIL instead.
-- **Final result:** all 16 figures correct on every run, and every ratio matched a hand-calculated answer key.
+- **Qualified result:** on one Microsoft FY2026 10-K, the test log records 36/36 checks for 12 requested values across three independent v4 text runs. A later v6 JSON playground retest recorded 96/96 checks for 16 items across three outputs, but the log says outputs two and three were identical and freshness was not confirmed. In workflow integration, the first v8 run returned 0/16 items; a rerun returned 16/16. Subsequent v9 normal and restoration runs matched all five deterministic ratios to the answer key. Correctness was version- and context-dependent; these single-borrower development tests are not an “every run” guarantee or a general accuracy estimate.
 
 An independent review then pointed out the core dependency: every control still trusts a dataset the AI created. A governed financial-data source is the top step toward production (case study, section 8).
 
