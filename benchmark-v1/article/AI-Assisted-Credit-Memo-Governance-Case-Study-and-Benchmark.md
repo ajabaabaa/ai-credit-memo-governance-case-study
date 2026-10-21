@@ -22,6 +22,10 @@ The workflow has four built steps:
 
 The AI does not make a credit decision, assign a risk rating, or approve the loan. Industry research, memo drafting, a critic, and the final credit-officer decision Gate 2 are designed ideas, not built or tested stages. This work covers **Measure** in the Measure → Standardize → Optimize → Innovate → Scale research framework. It does not introduce model swarms, JEV routing, or a new decision architecture.
 
+![Architecture and Gate 1 approval flow: fixed-schema intake, one extraction LLM, formula tie-out, human reviewer approval or send-back, then deterministic ratios. Offline benchmark scoring is shown separately from the operational path.](../figures/architecture-approval-flow.svg)
+
+**Approval boundary.** The reviewer checks borrower identity, filing period, completeness, the two-year tie-out, and two cited values. Approval permits downstream ratio use; a send-back includes a reason and correction, with escalation after repeated failure. For benchmark evaluation only, ratios are also calculated offline against hidden clean truth. That scoring path does not bypass the operational human gate, and no reviewer decision is simulated.
+
 The original case study used Microsoft's public FY2026 10-K as a test filing. The benchmark extension uses synthetic statements only. No borrower or customer records were used in the benchmark.
 
 ## 2. Why governance controls mattered in the original build

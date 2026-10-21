@@ -9,7 +9,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
 from reportlab.platypus import (
-    BaseDocTemplate, Frame, Image, KeepTogether, PageBreak, PageTemplate,
+    BaseDocTemplate, Flowable, Frame, Image, KeepTogether, PageBreak, PageTemplate,
     Paragraph, Spacer, Table, TableStyle,
 )
 
@@ -129,6 +129,69 @@ def table(headers, rows, widths, font_size=7.2):
     return t
 
 
+
+class WorkflowDiagram(Flowable):
+    """Vector flowchart showing the operational gate and offline benchmark path."""
+    def __init__(self):
+        super().__init__()
+        self.width = 7.14 * inch
+        self.height = 2.35 * inch
+
+    def draw(self):
+        c = self.canv
+        w = self.width
+        c.saveState()
+        c.setFillColor(colors.HexColor("#F7FAFC"))
+        c.setStrokeColor(LINE)
+        c.roundRect(0, 0, w, self.height, 9, fill=1, stroke=1)
+
+        def box(x, y, bw, bh, title, body, fill, stroke, title_color=NAVY):
+            c.setFillColor(fill); c.setStrokeColor(stroke); c.setLineWidth(1)
+            c.roundRect(x, y, bw, bh, 6, fill=1, stroke=1)
+            title_lines=title.split("\n")
+            c.setFillColor(title_color); c.setFont("Helvetica-Bold", 6.9)
+            for i,line in enumerate(title_lines): c.drawCentredString(x+bw/2, y+bh-12-i*8, line)
+            c.setFillColor(INK); c.setFont("Helvetica", 6.4)
+            lines=body.split("\n")
+            body_start=12+8*len(title_lines)+5
+            for i,line in enumerate(lines): c.drawCentredString(x+bw/2, y+bh-body_start-i*8, line)
+
+        def arrow(x1,y1,x2,y2,color=TEAL,dashed=False):
+            c.setStrokeColor(color); c.setFillColor(color); c.setLineWidth(1.2)
+            if dashed: c.setDash(3,2)
+            c.line(x1,y1,x2,y2)
+            c.setDash()
+            import math
+            a=math.atan2(y2-y1,x2-x1); size=4
+            p=c.beginPath(); p.moveTo(x2,y2)
+            p.lineTo(x2-size*math.cos(a-0.45),y2-size*math.sin(a-0.45))
+            p.lineTo(x2-size*math.cos(a+0.45),y2-size*math.sin(a+0.45)); p.close()
+            c.drawPath(p,fill=1,stroke=0)
+
+        y=1.12*inch; bh=0.65*inch
+        widths=[0.91*inch,1.08*inch,0.93*inch,1.05*inch,0.99*inch]
+        xs=[0.12*inch,1.17*inch,2.39*inch,3.47*inch,4.77*inch]
+        box(xs[0],y,widths[0],bh,"FIXED-SCHEMA\nINTAKE","Borrower + period\nRequired fields",PALEBLUE,LINE)
+        box(xs[1],y,widths[1],bh,"EXTRACTION\nLLM","16 values + evidence\nor NOT FOUND",colors.HexColor("#E7F6F9"),CYAN)
+        box(xs[2],y,widths[2],bh,"FORMULA\nTIE-OUT","Check both years\nFlag missing / mismatch",PALEBLUE,LINE)
+        box(xs[3],y,widths[3],bh,"GATE 1\nHUMAN REVIEW","Identity + period\nCompleteness + 2 values",colors.HexColor("#FFF5E8"),AMBER)
+        box(xs[4],y,widths[4],bh,"FIVE RATIOS","Deterministic formulas\nOnly after approval",colors.HexColor("#E8F5F1"),TEAL)
+        for i in range(4): arrow(xs[i]+widths[i]+2,y+bh/2,xs[i+1]-3,y+bh/2)
+
+        # Human review branches: approve continues; send-back returns to extraction.
+        gate_c=xs[3]+widths[3]/2
+        c.setFont("Helvetica-Bold",6.2); c.setFillColor(TEAL); c.drawString(xs[4]+0.04*inch,y+bh+3,"APPROVE")
+        c.setFillColor(AMBER); c.drawString(xs[2]+0.16*inch,y-10,"SEND BACK: reason + correction; max two returns, then escalate")
+        arrow(gate_c,y-2,xs[1]+widths[1]/2,y-2,AMBER,True)
+        c.setFont("Helvetica",6.5); c.setFillColor(MUTED)
+        c.drawString(0.14*inch,0.73*inch,"Benchmark-only scoring (dashed): frozen statement + hidden QA truth; compare extraction and ratios offline.")
+        c.setStrokeColor(colors.HexColor("#7D91A7")); c.setDash(3,2); c.roundRect(0.12*inch,0.12*inch,w-0.24*inch,0.48*inch,5,fill=0,stroke=1); c.setDash()
+        c.setFont("Helvetica-Bold",6.7); c.setFillColor(MUTED)
+        c.drawString(0.23*inch,0.40*inch,"NOT IN THIS PROTOTYPE: final credit decision remains with an accountable credit officer.")
+        c.setFont("Helvetica",6.1); c.drawString(0.23*inch,0.24*inch,"Offline scoring is evaluation only; it does not bypass operational Gate 1.")
+        c.restoreState()
+
+
 def chart(name, width=6.55*inch):
     path=TMP/f"{name}.png"
     from PIL import Image as PILImage
@@ -202,6 +265,8 @@ story += [Spacer(1,8),chart("matched-model-quality-pilot"),
 # Workflow, human role, scale
 story += [P("Controls and the human checkpoint","H1x"),
           P("The workflow assigns different responsibilities to the model, formulas, and reviewer. This makes it possible to ask not only whether a number is right, but where the control path caught or missed an error."),
+          P("Architecture and approval flow","H2x"),
+          WorkflowDiagram(), Spacer(1,8),
           table(["Stage","Owner","Control purpose"],[
               ("Data retrieval","One LLM, schema-constrained","Copy each figure from the filing; cite evidence or return NOT FOUND; do no arithmetic"),
               ("Gross-margin tie-out","Formula","Test arithmetic consistency in both years"),

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Credit memo workflow and human approval gate</title>
+  <desc id="desc">A fixed-schema intake flows through one extraction model, a deterministic tie-out, and a human approval gate. Approval enables deterministic ratio calculation. Send-backs loop to extraction, with escalation after repeated failure. Offline benchmark scoring uses hidden QA truth and does not bypass the gate.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101827"/><stop offset="1" stop-color="#0b1420"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0 0L8 4 0 8z" fill="#43d6c3"/></marker>
+    <marker id="back" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0 0L8 4 0 8z" fill="#f3b45b"/></marker>
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#e5edf7}.title{font-size:24px;font-weight:750;letter-spacing:1.5px}.sub{font-size:15px;fill:#91a6bd}.box{fill:#131f2d;stroke:#33465b;stroke-width:2}.model{fill:#102b37;stroke:#2dbbd3}.human{fill:#302719;stroke:#e6a342}.calc{fill:#122b28;stroke:#36b99f}.stage{font-size:17px;font-weight:750;letter-spacing:.8px}.body{font-size:14px;fill:#b5c5d7}.small{font-size:13px;fill:#8ea4bb}.arrow{stroke:#43d6c3;stroke-width:3;fill:none;marker-end:url(#arrow)}.backline{stroke:#f3b45b;stroke-width:2.5;stroke-dasharray:8 7;fill:none;marker-end:url(#back)}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1200" height="470" rx="22" fill="url(#bg)" stroke="#26374b"/>
+  <text x="42" y="47" class="title">OPERATIONAL WORKFLOW · HUMAN GATE BEFORE RATIO USE</text>
+  <text x="42" y="73" class="sub">Single extraction route · deterministic checks · explicit reviewer authority</text>
+  <g>
+    <rect class="box" x="42" y="116" width="190" height="100" rx="13"/><text x="137" y="151" text-anchor="middle" class="stage">FIXED-SCHEMA</text><text x="137" y="174" text-anchor="middle" class="stage">INTAKE</text><text x="137" y="198" text-anchor="middle" class="body">Borrower · period · fields</text>
+    <rect class="box model" x="272" y="116" width="206" height="100" rx="13"/><text x="375" y="151" text-anchor="middle" class="stage">ONE EXTRACTION LLM</text><text x="375" y="178" text-anchor="middle" class="body">16 values + evidence</text><text x="375" y="199" text-anchor="middle" class="body">or NOT FOUND</text>
+    <rect class="box" x="518" y="116" width="190" height="100" rx="13"/><text x="613" y="151" text-anchor="middle" class="stage">FORMULA</text><text x="613" y="174" text-anchor="middle" class="stage">TIE-OUT</text><text x="613" y="198" text-anchor="middle" class="body">Both years · flag exceptions</text>
+    <rect class="box human" x="748" y="116" width="205" height="100" rx="13"/><text x="850" y="151" text-anchor="middle" class="stage">GATE 1 · HUMAN</text><text x="850" y="178" text-anchor="middle" class="body">Identity · period · complete</text><text x="850" y="199" text-anchor="middle" class="body">Tie-out · 2 cited values</text>
+    <rect class="box calc" x="993" y="116" width="165" height="100" rx="13"/><text x="1075" y="151" text-anchor="middle" class="stage">FIVE RATIOS</text><text x="1075" y="178" text-anchor="middle" class="body">Deterministic formulas</text><text x="1075" y="199" text-anchor="middle" class="body">After approval only</text>
+  </g>
+  <path class="arrow" d="M232 166H265M478 166H511M708 166H741M953 166H986"/>
+  <text x="958" y="105" class="small" fill="#43d6c3">APPROVE</text>
+  <path class="backline" d="M850 222V267H375V224"/><text x="580" y="258" text-anchor="middle" class="small" fill="#f3b45b">SEND BACK with reason + correction · up to two returns, then escalate</text>
+  <rect x="42" y="300" width="1116" height="74" rx="12" fill="#101a27" stroke="#72869c" stroke-dasharray="7 6"/>
+  <text x="64" y="328" class="stage" fill="#9fb0c2">OFFLINE BENCHMARK SCORING · NOT AN OPERATIONAL BYPASS</text>
+  <text x="64" y="353" class="body">Frozen synthetic statement + hidden QA truth → score extraction and ratios. Reviewer decisions stay blank until humans complete blinded Gate 1 worksheets.</text>
+  <text x="42" y="418" class="small">OUTSIDE THE PROTOTYPE: The accountable credit officer makes the final credit decision.</text>
+  <text x="42" y="442" class="small">A passed arithmetic tie-out is a consistency check; it does not prove source authenticity or correct line-item meaning.</text>
+</svg>
