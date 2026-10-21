@@ -1,11 +1,11 @@
 # Benchmark V1 research extension
 
-This fork preserves the original repository files and adds a separate Measure-stage research project under [`benchmark-v1/`](benchmark-v1/README.md). No upstream case-study, workflow, test, or exhibit files were edited.
+KhanShrz's original case study establishes the workflow and its initial negative tests. This separately authored Measure-stage extension asks what happens across controlled statement-quality variation, multiple extraction routes, larger batches, and explicit output-integrity and cost checks. It also identifies controls, especially human Gate 1 effectiveness, that still require measurement. The original case-study, workflow, test, and exhibit files remain unchanged; the research project lives under [`benchmark-v1/`](benchmark-v1/README.md).
 
 ## Read the work
 
 - [Executive PDF briefing](benchmark-v1/output/pdf/AI-Assisted-Credit-Memo-Governance-Executive-Brief.pdf)
-- [Expanded article and research roadmap](benchmark-v1/article/AI-Assisted-Credit-Memo-Governance-Case-Study-and-Benchmark.md)
+- [Research extension article and roadmap](benchmark-v1/article/AI-Assisted-Credit-Memo-Governance-Case-Study-and-Benchmark.md)
 - [Reproducible benchmark and methods](benchmark-v1/README.md)
 - [Interactive benchmark dashboard](benchmark-v1/dashboard/index.html)
 - [Original case study PDF](case-study/AI-Assisted-Credit-Memo-Case-Study.pdf)

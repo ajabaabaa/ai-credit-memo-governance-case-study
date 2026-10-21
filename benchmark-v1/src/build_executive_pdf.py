@@ -205,15 +205,16 @@ def chart(name, width=6.55*inch):
 story=[]
 # Cover
 story += [Spacer(1,0.78*inch), P("AI GOVERNANCE RESEARCH SERIES  /  EXECUTIVE BRIEF", "CoverEyebrow"),
-          P("Governing an AI-Assisted<br/>Credit Memo Workflow", "CoverTitle"),
-          P("What a controlled benchmark reveals about source quality, model extraction, deterministic ratios, and human review.", "CoverSub"), Spacer(1,0.26*inch)]
+          P("Extending the AI-Assisted<br/>Credit Memo Case Study", "CoverTitle"),
+          P("A controlled benchmark of source quality, model extraction, deterministic ratios, and human review.", "CoverSub"),
+          P("Research extension of KhanShrz's original case study; original workflow and findings attributed to its author.", "CoverFoot"), Spacer(1,0.26*inch)]
 story.append(callout("KEY TAKEAWAY<br/><br/>A model can copy every displayed figure correctly while the resulting ratios still disagree with clean financials. In this controlled synthetic test, input quality shaped the downstream numbers more than the choice among the pilot models.",bg=colors.HexColor("#E7F6F9"),stripe=CYAN,pad=15))
 story += [Spacer(1,0.28*inch), P("MEASURE  →  STANDARDIZE  →  OPTIMIZE  →  INNOVATE  →  SCALE", "CoverEyebrow"),
           P("This edition reports Measure only. The remaining stages are a research plan, not completed work.", "CoverSub"),
           Spacer(1,2.65*inch), P("October 2026  ·  Synthetic data only  ·  Research prototype", "CoverFoot"), PageBreak()]
 
 # Executive summary
-story += [P("Executive summary","H1x"),P("The original case study built a linear workflow for preparing financial data behind a commercial credit memo: an AI intake agent captures the request, a retrieval agent extracts figures, formulas check and calculate, and a human reviewer approves the extracted data before ratios are used. Benchmark V1 starts after intake. The AI does not make the credit decision.")]
+story += [P("Executive summary","H1x"),P("KhanShrz's original case study built a linear workflow for preparing financial data behind a commercial credit memo: an AI intake agent captures the request, a retrieval agent extracts figures, formulas check and calculate, and a human reviewer approves the extracted data before ratios are used. Our Benchmark V1 starts after intake to measure source quality, extraction reliability, and control gaps. The AI does not make the credit decision.")]
 story.append(kpi_cards([("10,000","controlled synthetic records",CYAN),("55.0%","overall clean-latent ratio match",AMBER),("24","records in matched model pilot",TEAL),("$1.83 / $2","paid spend / authorized cap",RED)]))
 story += [Spacer(1,10),P("Three findings for decision-makers","H2x"),
           P("<b>1. Source quality propagates.</b> Simulator extraction matched every displayed value. Clean-latent ratio agreement was 17.6%, 47.4%, and 100% across preassigned 50%, 75%, and 100% source-quality tiers."),
@@ -316,6 +317,6 @@ story += [P("Evidence limits and definitions","H1x"),
           callout("Research prototype only. Not credit, investment, or financial advice. Not independently validated and not approved for production use.",bg=colors.HexColor("#FFF0F1"),stripe=RED),
           Spacer(1,12),P("Full methodology, detailed tables, source notes, and the interactive chart are in the companion article and benchmark dashboard.","Smallx")]
 
-doc=BriefDocTemplate(str(OUT),title="Governing an AI-Assisted Credit Memo Workflow - Executive Brief",author="Credit Memo Governance Research Series",subject="Measure-stage benchmark findings and planned research")
+doc=BriefDocTemplate(str(OUT),title="Extending the AI-Assisted Credit Memo Case Study - Executive Brief",author="Credit Memo Governance Research Series",subject="Research extension of KhanShrz's case study: Measure-stage benchmark findings and planned research")
 doc.build(story)
 print(OUT)

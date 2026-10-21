@@ -1,13 +1,21 @@
-# Governing an AI-Assisted Credit Memo Workflow
+# Extending the AI-Assisted Credit Memo Governance Case Study
 
-## A case study in controls, source quality, and model measurement
+## A synthetic benchmark of source quality, extraction reliability, and control gaps
 
 **Updated research edition · October 2026**
 **Research phase: Measure**
 
 > **What this study finds.** A model can copy every number shown in a financial statement and still produce ratios that disagree with the clean underlying financials when the source itself is defective. In a controlled 10,000-record synthetic cohort, exact extraction from the displayed statements was 100%, while clean-latent ratio agreement was 17.6%, 47.4%, and 100% across preassigned 50%, 75%, and 100% source-quality tiers. Small model pilots reproduced that pattern. A separate 10,000-request LLM batch exercise then showed that successful provider completion does not guarantee usable, schema-valid output: neither model returned a schema-complete extraction under the chosen output cap.
 
-This is a research extension of the original case study, not a production validation. It preserves the original linear workflow and financial definitions. It adds a controlled synthetic benchmark and records where our evidence is still too limited to support a model ranking.
+KhanShrz's [original case study](../../case-study/AI-Assisted-Credit-Memo-Case-Study.pdf) built and tested a linear credit-memo preparation workflow. This article is our separately authored research extension. We retain its implemented architecture, definitions, failure findings, and original artifacts, then measure questions the single-filing prototype left open. Our benchmark is not a production validation.
+
+| What the original established | What this extension adds |
+|---|---|
+| A linear workflow, five deterministic ratios, and negative tests on one public filing | A seeded synthetic corpus, independent ground truth, and reproducible measures across source-quality tiers |
+| Gate 1 as a human approval control | Blinded review worksheets and an explicit measurement plan; reviewer effectiveness remains pending |
+| Correctness checks on selected workflow runs | Matched model pilots, full-batch output-integrity evidence, timing, token and cost accounting, and stated scale limits |
+
+The first three sections summarize the original work so the new measurements have context. Sections 4–13 present our definitions, benchmark results, limitations, and research plan.
 
 **Source edition.** This article references the 19-page case-study PDF committed in the repository. Its discussion of independent review draws from Section 8 of that edition; the separately circulated 15-page PDF does not contain that section.
 
@@ -217,6 +225,6 @@ The generator is deterministic. Use existing frozen inputs and results when repr
 
 ## Source, disclaimer, and status
 
-This article extends *Governing an AI-Assisted Credit Memo Workflow: A Case Study* (original case study dated October 13, 2026; see the [original case study PDF](../../case-study/AI-Assisted-Credit-Memo-Case-Study.pdf)) and the exported workflow logic, schema, test log, and answer key preserved in the repository's `workflow/` and `testing/` folders. Original borrower test figures came from a public Form 10-K; all new benchmark records are synthetic.
+This article extends KhanShrz's *Governing an AI-Assisted Credit Memo Workflow: A Case Study* (dated October 13, 2026; see the [original case study PDF](../../case-study/AI-Assisted-Credit-Memo-Case-Study.pdf)) and the exported workflow logic, schema, test log, and answer key preserved in the repository's `workflow/` and `testing/` folders. Original borrower test figures came from a public Form 10-K; all new benchmark records are synthetic.
 
 This is a learning and research project. It is not credit, investment, or financial advice. The benchmark is not an independent model validation and is not approved for production use. The only complete one-million-record result is the deterministic simulator. The LLM quality comparison is a 24-record screening pilot, and the two full 10,000-request batches failed schema integrity and yield no valid accuracy comparison. Paid spend is $1.834534 against the authorized $2 cap.
