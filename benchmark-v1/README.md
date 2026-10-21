@@ -1,6 +1,6 @@
 # Credit Memo Governance Benchmark V1 — Measure
 
-This project reproduces the original repository’s linear workflow using synthetic financial statements: fixed-schema intake → Data-Retrieval-Agent extraction → deterministic gross-margin tie-out → Gate 1 human review → deterministic five-ratio calculation. It does not make credit decisions, cascade model outputs, or implement later Measure → Standardize → Optimize → Innovate → Scale phases. The extraction schema, debt definition, EBITDA definition, tie-out, and five formulas follow the original [`workflow/`](../workflow/) files.
+This project measures the extraction and calculation portion of the original repository’s linear workflow using synthetic financial statements. The original workflow starts with an AI Intake-Agent, then runs Data-Retrieval-Agent extraction → deterministic gross-margin tie-out → Gate 1 human review → deterministic five-ratio calculation. Benchmark V1 starts from frozen fixed-schema statements after intake; it generates blank Gate 1 worksheets and calculates ratios offline for scoring. No human approval outcome has been measured, and operational ratio use still requires Gate 1 approval. It does not make credit decisions, cascade model outputs, or implement later Measure → Standardize → Optimize → Innovate → Scale phases. The extraction schema, debt definition, EBITDA definition, tie-out, and five formulas follow the original [`workflow/`](../workflow/) files.
 
 ## Frozen synthetic corpus
 

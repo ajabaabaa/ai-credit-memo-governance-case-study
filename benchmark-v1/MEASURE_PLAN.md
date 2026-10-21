@@ -4,6 +4,8 @@
 
 How accurately and reliably does a single Data-Retrieval-Agent-shaped LLM extract the fixed 16-field, two-year financial schema from the same synthetic statement records, while the five ratios remain deterministic? This is extraction and control measurement only. It makes no credit decision and uses no model cascade, swarm, or JEV routing.
 
+The original workflow's AI Intake-Agent is outside this measurement boundary. Each benchmark run starts from a frozen fixed-schema statement after intake; Gate 1 worksheets remain blank until a human reviewer acts.
+
 ## Corpus and comparability
 
 - Seed: `20261020`; record IDs are stable and increasing.

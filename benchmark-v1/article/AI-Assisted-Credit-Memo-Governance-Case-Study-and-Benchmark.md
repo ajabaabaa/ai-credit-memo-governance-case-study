@@ -9,6 +9,8 @@
 
 This is a research extension of the original case study, not a production validation. It preserves the original linear workflow and financial definitions. It adds a controlled synthetic benchmark and records where our evidence is still too limited to support a model ranking.
 
+**Source edition.** This article references the 19-page case-study PDF committed in the repository. Its discussion of independent review draws from Section 8 of that edition; the separately circulated 15-page PDF does not contain that section.
+
 ## 1. The use case and its boundary
 
 Credit analysts spend time locating financial statement items in public filings and transferring them into credit memos. The prototype studied here automates that preparation step while keeping a person responsible for review and the eventual credit decision.
@@ -22,7 +24,7 @@ The workflow has four built steps:
 
 The AI does not make a credit decision, assign a risk rating, or approve the loan. Industry research, memo drafting, a critic, and the final credit-officer decision Gate 2 are designed ideas, not built or tested stages. This work covers **Measure** in the Measure → Standardize → Optimize → Innovate → Scale research framework. It does not introduce model swarms, JEV routing, or a new decision architecture.
 
-![Architecture and Gate 1 approval flow: fixed-schema intake, one extraction LLM, formula tie-out, human reviewer approval or send-back, then deterministic ratios. Offline benchmark scoring is shown separately from the operational path.](../figures/architecture-approval-flow.svg)
+![Architecture and Gate 1 approval flow: the original AI intake agent, one extraction LLM, formula tie-out, human reviewer approval or send-back, then deterministic ratios. Benchmark V1 begins after intake from frozen fixed-schema statements, with offline scoring separate from the operational path.](../figures/architecture-approval-flow.svg)
 
 **Approval boundary.** The reviewer checks borrower identity, filing period, completeness, the two-year tie-out, and two cited values. Approval permits downstream ratio use; a send-back includes a reason and correction, with escalation after repeated failure. For benchmark evaluation only, ratios are also calculated offline against hidden clean truth. That scoring path does not bypass the operational human gate, and no reviewer decision is simulated.
 
@@ -71,7 +73,7 @@ The intended use remains analyst decision support. Prohibited uses include appro
 
 ## 4. Architecture and financial definitions retained
 
-The benchmark mirrors the source's linear sequence: fixed-schema statement intake → one data-retrieval model → deterministic gross-margin tie-out → Gate 1 review worksheet → deterministic ratios. Candidate models receive the same immutable record independently. They do not see hidden ground truth or the quality-assurance sidecar. The benchmark scorer compares outputs only after inference.
+The original operational sequence starts with an AI Intake-Agent, followed by a data-retrieval model → deterministic gross-margin tie-out → human Gate 1 approval → deterministic ratios. Benchmark V1 begins after intake with frozen fixed-schema statements. It measures extraction and calculates ratios offline against hidden truth, while producing blank Gate 1 review worksheets. Intake-agent performance and human approval effectiveness are not measured. Candidate models receive the same immutable record independently. They do not see hidden ground truth or the quality-assurance sidecar. The benchmark scorer compares outputs only after inference.
 
 There are 16 financial line items for two years (32 numeric positions per record). The five ratios are calculated outside the LLM using the source definitions:
 

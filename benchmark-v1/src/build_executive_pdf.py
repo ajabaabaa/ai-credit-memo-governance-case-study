@@ -171,7 +171,7 @@ class WorkflowDiagram(Flowable):
         y=1.12*inch; bh=0.65*inch
         widths=[0.91*inch,1.08*inch,0.93*inch,1.05*inch,0.99*inch]
         xs=[0.12*inch,1.17*inch,2.39*inch,3.47*inch,4.77*inch]
-        box(xs[0],y,widths[0],bh,"FIXED-SCHEMA\nINTAKE","Borrower + period\nRequired fields",PALEBLUE,LINE)
+        box(xs[0],y,widths[0],bh,"AI INTAKE\nAGENT","Borrower request\nFlag missing inputs",PALEBLUE,LINE)
         box(xs[1],y,widths[1],bh,"EXTRACTION\nLLM","16 values + evidence\nor NOT FOUND",colors.HexColor("#E7F6F9"),CYAN)
         box(xs[2],y,widths[2],bh,"FORMULA\nTIE-OUT","Check both years\nFlag missing / mismatch",PALEBLUE,LINE)
         box(xs[3],y,widths[3],bh,"GATE 1\nHUMAN REVIEW","Identity + period\nCompleteness + 2 values",colors.HexColor("#FFF5E8"),AMBER)
@@ -184,11 +184,11 @@ class WorkflowDiagram(Flowable):
         c.setFillColor(AMBER); c.drawString(xs[2]+0.16*inch,y-10,"SEND BACK: reason + correction; max two returns, then escalate")
         arrow(gate_c,y-2,xs[1]+widths[1]/2,y-2,AMBER,True)
         c.setFont("Helvetica",6.5); c.setFillColor(MUTED)
-        c.drawString(0.14*inch,0.73*inch,"Benchmark-only scoring (dashed): frozen statement + hidden QA truth; compare extraction and ratios offline.")
+        c.drawString(0.14*inch,0.73*inch,"V1 begins after intake: frozen fixed-schema statement + hidden QA truth; extraction and ratios scored offline.")
         c.setStrokeColor(colors.HexColor("#7D91A7")); c.setDash(3,2); c.roundRect(0.12*inch,0.12*inch,w-0.24*inch,0.48*inch,5,fill=0,stroke=1); c.setDash()
         c.setFont("Helvetica-Bold",6.7); c.setFillColor(MUTED)
         c.drawString(0.23*inch,0.40*inch,"NOT IN THIS PROTOTYPE: final credit decision remains with an accountable credit officer.")
-        c.setFont("Helvetica",6.1); c.drawString(0.23*inch,0.24*inch,"Offline scoring is evaluation only; it does not bypass operational Gate 1.")
+        c.setFont("Helvetica",6.1); c.drawString(0.23*inch,0.24*inch,"Intake unmeasured; human Gate 1 decisions pending. Operational ratios still require approval.")
         c.restoreState()
 
 
@@ -213,7 +213,7 @@ story += [Spacer(1,0.28*inch), P("MEASURE  →  STANDARDIZE  →  OPTIMIZE  → 
           Spacer(1,2.65*inch), P("October 2026  ·  Synthetic data only  ·  Research prototype", "CoverFoot"), PageBreak()]
 
 # Executive summary
-story += [P("Executive summary","H1x"),P("The original case study built a linear workflow for preparing financial data behind a commercial credit memo: an AI retrieves figures, formulas check and calculate, and a human reviewer approves the extracted data before ratios are used. The AI does not make the credit decision.")]
+story += [P("Executive summary","H1x"),P("The original case study built a linear workflow for preparing financial data behind a commercial credit memo: an AI intake agent captures the request, a retrieval agent extracts figures, formulas check and calculate, and a human reviewer approves the extracted data before ratios are used. Benchmark V1 starts after intake. The AI does not make the credit decision.")]
 story.append(kpi_cards([("10,000","controlled synthetic records",CYAN),("55.0%","overall clean-latent ratio match",AMBER),("24","records in matched model pilot",TEAL),("$1.83 / $2","paid spend / authorized cap",RED)]))
 story += [Spacer(1,10),P("Three findings for decision-makers","H2x"),
           P("<b>1. Source quality propagates.</b> Simulator extraction matched every displayed value. Clean-latent ratio agreement was 17.6%, 47.4%, and 100% across preassigned 50%, 75%, and 100% source-quality tiers."),
@@ -311,7 +311,7 @@ story += [P("Evidence limits and definitions","H1x"),
           P("Total debt excludes leases. Interest expense is the specifically labeled line item and is positive. EBITDA follows the source definition: operating income plus “depreciation, amortization, and other” from the cash-flow statement. The gross-margin tie-out is gross margin − research and development − sales and marketing − general and administrative − operating income = 0. These definitions describe this prototype; they are not a universal credit policy."),
           P("Reproducibility and safeguards","H2x"),
           P("The seed is 20261020. Input and truth are saved separately. The 10,000-record quality-mix input SHA-256 is d288e317576cc95a3ccaaa8ffd80cd0da42ac0a6b549d22fb595c42e5fbc0bbb; truth SHA-256 is ed89602f6a34317187521b3dd4aa74dc9ac4724a58899f607e596d1efae6f331. The model never receives the truth or QA sidecar. The article, CSV outputs, charts, model responses, and spend ledger are retained under the benchmark project. API keys remain in environment variables; no borrower data is used."),
-          P("Original case study: <i>Governing an AI-Assisted Credit Memo Workflow: A Case Study</i>, October 13, 2026. Its public-filing example and workflow artifacts are preserved in the repository's case-study, workflow, and testing folders. The new benchmark records are synthetic.","Smallx"),
+          P("Original case study: <i>Governing an AI-Assisted Credit Memo Workflow: A Case Study</i>, October 13, 2026. This brief references the 19-page repository edition, which includes a Section 8 on independent review absent from a separately circulated 15-page version. Original workflow and test artifacts remain in the repository; the benchmark records are synthetic.","Smallx"),
           Spacer(1,10),
           callout("Research prototype only. Not credit, investment, or financial advice. Not independently validated and not approved for production use.",bg=colors.HexColor("#FFF0F1"),stripe=RED),
           Spacer(1,12),P("Full methodology, detailed tables, source notes, and the interactive chart are in the companion article and benchmark dashboard.","Smallx")]
