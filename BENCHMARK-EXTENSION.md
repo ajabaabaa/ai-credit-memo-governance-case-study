@@ -23,4 +23,4 @@ The mapping key for blinded Gate 1 worksheets is also kept out of the public for
 
 ## Attribution and licensing
 
-This repository is a fork of [KhanShrz/ai-credit-memo-governance-case-study](https://github.com/KhanShrz/ai-credit-memo-governance-case-study). The upstream repository has no `LICENSE` file. Its original files remain intact and attributable to their author; this extension does not add a license to or claim ownership of the upstream work.
+This repository is a fork of [KhanShrz/ai-credit-memo-governance-case-study](https://github.com/KhanShrz/ai-credit-memo-governance-case-study). The upstream repository has no `LICENSE` file. The original case-study, workflow, testing, and exhibit files remain unchanged in this fork; the fork's root README adds attribution and a qualified summary of the original test log. This extension does not add a license to or claim ownership of the upstream work.

@@ -59,11 +59,13 @@ The original agent evolved through text output, broader MD&A/note searches, a se
 
 These are reproduced here as the original case study's example outputs, not recalculated benchmark outcomes.
 
-The final developer retest in the original single-filing case study reported all 16 figures correct and all five ratios matching its hand-calculated answer key. That is useful evidence about a controlled workflow and one filing. It is not evidence of general accuracy across companies, filing formats, or source defects. The benchmark below was designed to examine that wider source-quality question.
+The original test log reports 36/36 checks across three independent v4 text runs (12 requested values per run). A later v6 JSON playground retest recorded 96/96 checks across three outputs (16 items, two years), but it notes that outputs two and three were identical and fresh retrieval was not confirmed. In workflow integration, the first v8 run returned all 16 items as missing; a rerun returned 16/16 and all five ratios matched the hand-calculated key for both years. Later v9 normal and restoration runs matched the ratios again. These are development tests on one Microsoft filing, not a general accuracy estimate. The benchmark below examines a wider synthetic source-quality question.
 
 ## 3. Risk and intended use
 
 The original case study proposed treating the workflow as a model for model-risk governance because it transforms source data into quantitative estimates that inform lending work. Its proposed initial risk tier was medium, subject to independent model-risk review. Risk would rise if human review were removed, the system started drafting recommendations, or outputs were used at volume for large exposures.
+
+That risk tier is the case-study author's proposal, not a bank classification. The Federal Reserve's [revised SR 26-2 guidance](https://www.federalreserve.gov/supervisionreg/srletters/sr2602.htm) superseded SR 11-7 in April 2026 and excludes generative and agentic AI from its scope. The [prototype control crosswalk](../../MODEL-RISK-MAPPING.md) relates the work to general governance principles while recording the gaps; it does not establish regulatory compliance or independent validation.
 
 The intended use remains analyst decision support. Prohibited uses include approving or declining credit, assigning risk ratings, consumer lending, or use without Gate 1. The prototype is not validated or approved for production. The original case study also identifies fair-lending, security, traceability, vendor dependence, and source-version risks that remain relevant even though the synthetic benchmark does not test those risks.
 

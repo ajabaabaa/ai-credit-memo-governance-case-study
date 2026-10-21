@@ -8,7 +8,7 @@ This is a research fork of [KhanShrz/ai-credit-memo-governance-case-study](https
 
 The original case study describes a developer-led prototype and negative testing. It is not an independent bank model-risk review, regulatory validation, or evidence of compliance with supervisory guidance. See [the control-to-guidance mapping](MODEL-RISK-MAPPING.md) for a bounded discussion of related principles and evidence gaps.
 
-> **Platform lifecycle:** Microsoft says Foundry declarative workflows retire on **December 1, 2026**. This repository is an archived research prototype, not a production dependency. Portable materials include the exported workflow definition, prompts, JSON schema, formulas, and test cases; Foundry visual-canvas configuration, node bindings, retrieval-index connections, and runtime settings require deliberate migration and revalidation. Microsoft's current migration guidance points new development toward Microsoft Agent Framework. [Retirement and migration guidance](https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/vs-code-agents-workflow-low-code).
+> **Platform lifecycle:** Microsoft says Foundry declarative workflows retire on **December 1, 2026**. The original Foundry implementation is a research prototype and is not approved for production use. Portable materials include the exported workflow definition, prompts, JSON schema, formulas, and test cases; Foundry visual-canvas configuration, node bindings, retrieval-index connections, and runtime settings require deliberate migration and revalidation. Microsoft's current migration guidance points new development toward Microsoft Agent Framework. [Retirement and migration guidance](https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/vs-code-agents-workflow-low-code).
 
 The original case study by KhanShrz documents a small AI-assisted workflow that prepares the financial data behind a commercial credit memo, then subjects it to developer-led negative testing and control changes.
 
@@ -17,6 +17,7 @@ The original case study by KhanShrz documents a small AI-assisted workflow that 
 - [Extension overview and evidence notes](BENCHMARK-EXTENSION.md)
 - [Executive brief (PDF)](benchmark-v1/output/pdf/AI-Assisted-Credit-Memo-Governance-Executive-Brief.pdf)
 - [Expanded article and research roadmap](benchmark-v1/article/AI-Assisted-Credit-Memo-Governance-Case-Study-and-Benchmark.md)
+- [Architecture and Gate 1 approval diagram](benchmark-v1/figures/architecture-approval-flow.svg)
 - [Interactive benchmark dashboard](benchmark-v1/dashboard/index.html)
 - [Synthetic benchmark methods and reproduction guide](benchmark-v1/README.md)
 
