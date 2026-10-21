@@ -1,0 +1,601 @@
+﻿review_run_id,blinded_case_id,statement_text,extracted_json,borrower_matches_intake,latest_fiscal_year,no_missing_fields,tieout_both_years_pass,two_figures_spot_checked,reviewer_decision,reviewer_correction_json,review_reason,sendback_count,escalated
+C65791397D,CASE-00124,"SYNTHETIC CO 00124 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands, except per-share data)
+Total revenue | $333,939 | $376,637
+Segment revenue (not consolidated) | 111,313 | 125,545
+Gross profit | $20,936 | $235,937,000
+Research and development expense | $27,608 | $27,773
+Selling and marketing expense | $17,054 | $2,242
+General and administrative expense | $64,020 | $64,020
+Operating income | $100,686 | $121,888
+Net income | $8,627 | $85,461
+Interest expense | $4,640 | $28,235
+Depreciation and amortization | $28,306 | $28,235
+Cash and cash equivalents | $50,454 | $50,454
+Total current assets | $67,217 | $119,282
+Total current liabilities | $6,721 | $37,278,000
+Current portion of long-term debt | $9,619 | $6,492
+Long-term debt, net of current portion | $17,472 | $6,492
+Total liabilities | $34,292 | $223,541
+Total stockholders’ equity | $333,939 | $56,967
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO 00124"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":333939,""py"":376637,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":20936,""py"":235937000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":27608,""py"":27773,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":17054,""py"":2242,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":64020,""py"":64020,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":100686,""py"":121888,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":8627,""py"":85461,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":4640,""py"":28235,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":28306,""py"":28235,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":50454,""py"":50454,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":67217,""py"":119282,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":6721,""py"":37278000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":9619,""py"":6492,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":17472,""py"":6492,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":34292,""py"":223541,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":333939,""py"":56967,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-01024,"SYNTHETIC CO 01024 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands, except per-share data)
+Net sales | 601,564 | 544,540
+Segment revenue (not consolidated) | 200,521 | 181,513
+Gross profit | 450,865 | 377,325,000
+Research and development expense | 59,953 | 59,953
+Selling and marketing expense | 42,969 | 5,995
+General and administrative expense | 160,449 | 40,335
+Operating income | 14,730 | 251,066
+Net income | 14,730 | 169,551,000
+Interest expense | 10,689 | 7,126
+Depreciation and amortization | 21,440 | 8,974
+Cash and cash equivalents | 24,688 | 24,688
+Total current assets | 51,782 | 22,141
+Total current liabilities | 5,178 | 47,125,000
+Current portion of long-term debt | 4,838 | 5,228
+Long-term debt, net of current portion | 35,862 | 1,171
+Total liabilities | 105,384 | 105,384
+Total stockholders’ equity | 159,693 | 115,199
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""total_revenue"":{""cy"":601564,""py"":544540,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":450865,""py"":377325000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":59953,""py"":59953,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":42969,""py"":5995,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":160449,""py"":40335,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":14730,""py"":251066,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":14730,""py"":169551000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":10689,""py"":7126,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":21440,""py"":8974,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":24688,""py"":24688,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":51782,""py"":22141,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":5178,""py"":47125000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":4838,""py"":5228,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":35862,""py"":1171,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":105384,""py"":105384,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":159693,""py"":115199,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""not_found"":[]}",,,,,,,,,0,
+C65791397D,CASE-01602,"SYNTHETIC CO 01602 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+USD, rounded to nearest thousand
+Total revenue: FY2026 699,588; FY2025 699,588
+Segment revenue (not consolidated) | 233,196 | 233,196
+Gross profit: FY2026 102,854; FY2025 68,612
+Research and development expense: FY2026 102,854; FY2025 4,923,000
+Selling and marketing expense: FY2026 73,322; FY2025 14,435
+General and administrative expense: FY2026 44,234; FY2025 876
+Operating income: FY2026 111,132,000; FY2025 40,494
+Net income: FY2026 10,785; FY2025 23,804
+Interest expense: FY2026 10,785; FY2025 5,223,000
+Depreciation and amortization: FY2026 10,821; FY2025 10,821
+Cash and cash equivalents: FY2026 13,021; FY2025 3,375
+Total current assets: FY2026 112,579; FY2025 112,579
+Total current liabilities: FY2026 18,835; FY2025 73,382
+Current portion of long-term debt: FY2026 1,882; FY2025 14,769
+Long-term debt, net of current portion: FY2026 71,770; FY2025 71,770
+Total liabilities: FY2026 172,110; FY2025 130,651
+Total stockholders’ equity: FY2026 112,606; FY2025 112,606
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[""sales_and_marketing""],""total_revenue"":{""cy"":699588,""py"":699588,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":102854,""py"":68612,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":102854,""py"":4923000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":null,""general_and_administrative"":{""cy"":44234,""py"":876,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":111132000,""py"":40494,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":10785,""py"":23804,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":10785,""py"":5223000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":10821,""py"":10821,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":13021,""py"":3375,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":112579,""py"":112579,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":18835,""py"":73382,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":1882,""py"":14769,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":71770,""py"":71770,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":172110,""py"":130651,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":112606,""py"":112606,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-01647,"SYNTHETIC CO 01647 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands)
+Total stockholders’ equity | 26,394 | 53,132
+Segment revenue (not consolidated) | 102,299,333 | 66,745
+Total liabilities | 147,788 | 9,285
+Long-term debt, net of current portion | 5,472 | 92,851
+Current portion of long-term debt | 19,200 | 15,022,000
+Total current liabilities | 47,477 | 32,231
+Total current assets | 117,767 | 94,030
+Cash and cash equivalents | 49,009 | 1,350
+Depreciation and amortization | 24,161 | 10,855
+Interest expense | 189 | 6,242,000
+Net income | 50,576 | 43,039
+Operating income | 66,557,000 | 66,557,000
+General and administrative expense | 60,872 | 4,382
+Selling and marketing expense | 38,933 | 4,382
+Research and development expense | 22,108 | 23,394
+Gross profit | 187,470 | 151,614
+Total revenue | 306,898,000 | 200,237
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":306898000,""py"":200237,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":187470,""py"":151614,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":22108,""py"":23394,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":38933,""py"":4382,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":60872,""py"":4382,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":66557000,""py"":66557000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":50576,""py"":43039,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":189,""py"":6242000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":24161,""py"":10855,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":49009,""py"":1350,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":117767,""py"":94030,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":47477,""py"":32231,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":19200,""py"":15022000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":5472,""py"":92851,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":147788,""py"":9285,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":26394,""py"":53132,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-01899,"SYNTHETIC CO 01899 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands)
+Total stockholders’ equity | 2026 | 2025
+25,892 | 123,295
+Segment revenue (not consolidated) | 5,030 | 43,698
+Total liabilities | 2026 | 2025
+67,468,000 | 67,468
+Long-term debt, net of current portion | 2026 | 2025
+37,091 | 77,590
+Current portion of long-term debt | 2026 | 2025
+77,590 | 77,590
+Total current liabilities | 2026 | 2025
+2,891 | 58,671
+Total current assets | 2026 | 2025
+77,238 | 113,512
+Cash and cash equivalents | 2026 | 2025
+45,757,000 | 45,757
+Depreciation and amortization | 2026 | 2025
+3,081 | 1,294
+Interest expense | 2026 | 2025
+3,362 | 1,294
+Net income | 2026 | 2025
+2,400 | 18,053,000
+Operating income | 2026 | 2025
+24,009 | 30,238
+General and administrative expense | 2026 | 2025
+27,251 | 7,307
+Selling and marketing expense | 2026 | 2025
+46,615 | 24,333
+Research and development expense | 2026 | 2025
+35,356 | 24,333
+Gross profit | 2026 | 2025
+15,092 | 72,367
+Net sales | 2026 | 2025
+15,092 | 131,095
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO 01899"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":15092,""py"":131095,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":15092,""py"":72367,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":35356,""py"":24333,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":46615,""py"":24333,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":27251,""py"":7307,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":24009,""py"":30238,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":2400,""py"":18053000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":3362,""py"":1294,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":3081,""py"":1294,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":45757000,""py"":45757,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":77238,""py"":113512,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":2891,""py"":58671,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":77590,""py"":77590,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":37091,""py"":77590,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":67468000,""py"":67468,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":25892,""py"":123295,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-02037,"SYNTHETIC CO 02037 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(USD thousands)
+Total stockholders’ equity [1] ........ $111,263 FY2026; $111,263 FY2025
+Segment revenue (not consolidated) | 40,065,000 | 280,235
+Total liabilities [1] ........ $27,796 FY2026; $11,942 FY2025
+Long-term debt, net of current portion [1] ........ $25,301 FY2026; $11,942 FY2025
+Current portion of long-term debt [1] ........ $544 FY2026; $15,369 FY2025
+Total current liabilities [1] ........ $65,281 FY2026; $66,523 FY2025
+Total current assets [1] ........ $20,318,000 FY2026; $100,329 FY2025
+Cash and cash equivalents [1] ........ $10,946 FY2026; $1,198 FY2025
+Depreciation and amortization [1] ........ $20,272 FY2026; $1,198 FY2025
+Interest expense [1] ........ $721 FY2026; $8,465,000 FY2025
+Net income [1] ........ $25,145 FY2026; $175,130 FY2025
+Operating income [1] ........ $35,472,000 FY2026; $275,783 FY2025
+General and administrative expense [1] ........ $11,600 FY2026; $227,075 FY2025
+Selling and marketing expense [1] ........ $14,091 FY2026; $227,075 FY2025
+Research and development expense [1] ........ $1,173 FY2026; $59,448 FY2025
+Gross profit [1] ........ $1,173 FY2026; $627,529 FY2025
+Total revenue [1] ........ $120,195,000 FY2026; $840,705 FY2025
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":120195000,""py"":840705,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":1173,""py"":627529,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":1173,""py"":59448,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":14091,""py"":227075,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":11600,""py"":227075,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":35472000,""py"":275783,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":25145,""py"":175130,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":721,""py"":8465000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":20272,""py"":1198,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":10946,""py"":1198,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":20318000,""py"":100329,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":65281,""py"":66523,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":544,""py"":15369,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":25301,""py"":11942,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":27796,""py"":11942,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":111263,""py"":111263,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-02286,"SYNTHETIC CO 02286 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+USD, rounded to nearest thousand
+Net sales (2026) 482,469; prior year (2025) 407,696
+Segment revenue (not consolidated) | 160,823 | 135,898
+Gross profit (2026) 314,278; prior year (2025) 265,794
+Research and development expense (2026) 32,036; prior year (2025) 64,186
+Selling and marketing expense (2026) 50,535,000; prior year (2025) 50,535,000
+General and administrative expense (2026) 18,552; prior year (2025) 94,335
+Operating income (2026) 18,552; prior year (2025) 29,433,000
+Net income (2026) 133,543; prior year (2025) 20,642
+Interest expense (2026) 3,371; prior year (2025) 153
+Depreciation and amortization (2026) 5,755; prior year (2025) 11,341
+Cash and cash equivalents (2026) 132,807; prior year (2025) 10,428
+Total current assets (2026) 132,807; prior year (2025) 106,407,000
+Total current liabilities (2026) 86,906; prior year (2025) 4,858
+Current portion of long-term debt (2026) 1,357; prior year (2025) 485
+Long-term debt, net of current portion (2026) 53,835; prior year (2025) 53,835
+Total liabilities (2026) 123,148; prior year (2025) 190,882
+Total stockholders’ equity (2026) 123,148; prior year (2025) 122,058
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":482469,""py"":407696,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":314278,""py"":265794,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":32036,""py"":64186,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":50535000,""py"":50535000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":18552,""py"":94335,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":18552,""py"":29433000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":133543,""py"":20642,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":3371,""py"":153,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":5755,""py"":11341,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":132807,""py"":10428,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":132807,""py"":106407000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":86906,""py"":4858,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":1357,""py"":485,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":53835,""py"":53835,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":123148,""py"":190882,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":123148,""py"":122058,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-02409,"SYNTHETIC CO 02409 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(USD thousands)
+Total stockholders’ equity .............. $73,170 (2026) | $67,411 (2025)
+Segment revenue (not consolidated) | 34,037 | 143,009
+Total liabilities .............. $88,922,000 (2026) | $88,922 (2025)
+Long-term debt, net of current portion .............. $69,630 (2026) | $4,604 (2025)
+Current portion of long-term debt .............. $7,499 (2026) | $7,499 (2025)
+Total current liabilities .............. $5,287 (2026) | $44,503,000 (2025)
+Total current assets .............. $5,287 (2026) | $27,017 (2025)
+Cash and cash equivalents .............. $34,476 (2026) | $34,476 (2025)
+Depreciation and amortization .............. $5,334 (2026) | $9,740 (2025)
+Interest expense .............. $9,740 (2026) | $9,740 (2025)
+Net income .............. $2,014 (2026) | $68,205 (2025)
+Operating income .............. $24,697 (2026) | $101,769 (2025)
+General and administrative expense .............. $17,253 (2026) | $38,411 (2025)
+Selling and marketing expense .............. $23,858 (2026) | $6,874 (2025)
+Research and development expense .............. $29,611 (2026) | $29,611 (2025)
+Gross profit .............. $10,211 (2026) | $238,539 (2025)
+Total revenue .............. $102,111 (2026) | $429,027 (2025)
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":102111,""py"":429027,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":10211,""py"":238539,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":29611,""py"":29611,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":23858,""py"":6874,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":17253,""py"":38411,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":24697,""py"":101769,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":2014,""py"":68205,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":9740,""py"":9740,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":5334,""py"":9740,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":34476,""py"":34476,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":5287,""py"":27017,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":5287,""py"":44503000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":7499,""py"":7499,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":69630,""py"":4604,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":88922000,""py"":88922,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":73170,""py"":67411,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-03399,"SYNTHETIC CO 03399 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands)
+Total stockholders’ equity | 24,141 | 161,579
+Segment revenue (not consolidated) | 146,348 | 174,400
+Total liabilities | 172,546 | 239,466
+Long-term debt, net of current portion | 49,276 | 35,823
+Current portion of long-term debt | 11,889 | 1,046
+Total current liabilities | 20,230 | 75,188,000
+Total current assets | 114,141 | 88,852
+Cash and cash equivalents | 52,600 | 17,639
+Depreciation and amortization | 26,315 | 15,505
+Interest expense | 3,434 | 15,505
+Net income | 35,638 | 37,833,000
+Operating income | 57,101 | 65,195
+General and administrative expense | 82,152 | 48,597
+Selling and marketing expense | 26,118 | 58,590
+Research and development expense | 73,932 | 73,932
+Gross profit | 222,492 | 246,314
+Total revenue | 439,045 | 523,201
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":439045,""py"":523201,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":222492,""py"":246314,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":73932,""py"":73932,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":26118,""py"":58590,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":82152,""py"":48597,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":57101,""py"":65195,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":35638,""py"":37833000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":3434,""py"":15505,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":26315,""py"":15505,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":52600,""py"":17639,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":114141,""py"":88852,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":20230,""py"":75188000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":11889,""py"":1046,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":49276,""py"":35823,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":172546,""py"":239466,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":24141,""py"":161579,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-03996,"SYNTHETIC CO 03996 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands, except per-share data)
+Total revenue | $58,582 | $284,090
+Segment revenue (not consolidated) | 19,527 | 94,696
+Gross profit | $228,495 | $172,259
+Research and development expense | $38,638 | $12,995
+Selling and marketing expense | $39,676,000 | $20,265
+General and administrative expense | $39,169 | $45,344
+Operating income | $112,012 | $94,655
+Net income | $66,114 | $84,066
+Interest expense | $10,564 | $11,453
+Depreciation and amortization | $7,134 | $4,009
+Cash and cash equivalents | $130,677 | $17,163
+Total current assets | $130,677 | $32,714
+Total current liabilities | $44,067 | $69,554
+Current portion of long-term debt | $7,065 | $16,451
+Long-term debt, net of current portion | $76,883 | $76,883
+Total liabilities | $87,196 | $210,886
+Total stockholders’ equity | $4,491 | $89,410
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""total_revenue"":{""cy"":58582,""py"":284090,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":228495,""py"":172259,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":38638,""py"":12995,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":39676000,""py"":20265,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":39169,""py"":45344,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":112012,""py"":94655,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":66114,""py"":84066,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":10564,""py"":11453,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":7134,""py"":4009,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":130677,""py"":17163,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":130677,""py"":32714,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":44067,""py"":69554,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":7065,""py"":16451,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":76883,""py"":76883,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":87196,""py"":210886,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":4491,""py"":89410,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""not_found"":[]}",,,,,,,,,0,
+C65791397D,CASE-04507,"SYNTHETIC CO 04507 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands)
+Total stockholders’ equity | 2026 | 2025
+37,356,000 | 37,356,000
+Segment revenue (not consolidated) | 281,628 | 37,284
+Total liabilities | 2026 | 2025
+240,830 | 236,239
+Long-term debt, net of current portion | 2026 | 2025
+31,714 | 56,840
+Current portion of long-term debt | 2026 | 2025
+1,838 | 6,764
+Total current liabilities | 2026 | 2025
+1,838 | 43,106
+Total current assets | 2026 | 2025
+130,323 | 141,294
+Cash and cash equivalents | 2026 | 2025
+17,796 | 1,037
+Depreciation and amortization | 2026 | 2025
+17,027 | 11,649
+Interest expense | 2026 | 2025
+1,065 | 2,404
+Net income | 2026 | 2025
+61,563 | 8,904
+Operating income | 2026 | 2025
+69,066 | 69,066
+General and administrative expense | 2026 | 2025
+109,180 | 8,677
+Selling and marketing expense | 2026 | 2025
+57,170 | 21,942
+Research and development expense | 2026 | 2025
+81,363 | 12,890
+Gross profit | 2026 | 2025
+81,363 | 59,365
+Net sales | 2026 | 2025
+844,886 | 111,852
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":844886,""py"":111852,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":81363,""py"":59365,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":81363,""py"":12890,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":57170,""py"":21942,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":109180,""py"":8677,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":69066,""py"":69066,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":61563,""py"":8904,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":1065,""py"":2404,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":17027,""py"":11649,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":17796,""py"":1037,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":130323,""py"":141294,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":1838,""py"":43106,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":1838,""py"":6764,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":31714,""py"":56840,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":240830,""py"":236239,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":37356000,""py"":37356000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-05330,"SYNTHETIC CO 05330 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+USD, rounded to nearest thousand
+Total revenue: FY2026 134,910; FY2025 596,136
+Segment revenue (not consolidated) | 44,970 | 198,712
+Gross profit: FY2026 70,450; FY2025 323,498
+Research and development expense: FY2026 7,752; FY2025 51,929
+Selling and marketing expense: FY2026 1,423; FY2025 56,905
+General and administrative expense: FY2026 18,288; FY2025 146,160
+Operating income: FY2026 30,179; FY2025 14,616
+Net income: FY2026 16,690; FY2025 119,074
+Interest expense: FY2026 27,863; FY2025 11,811
+Depreciation and amortization: FY2026 27,863; FY2025 7,335
+Cash and cash equivalents: FY2026 56,721; FY2025 108,065
+Total current assets: FY2026 149,038; FY2025 108,065
+Total current liabilities: FY2026 26,796; FY2025 66,351
+Current portion of long-term debt: FY2026 13,236; FY2025 7,548
+Long-term debt, net of current portion: FY2026 30,126; FY2025 15,916
+Total liabilities: FY2026 86,901; FY2025 58,321
+Total stockholders’ equity: FY2026 135,596; FY2025 169,824
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":134910,""py"":596136,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":70450,""py"":323498,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":7752,""py"":51929,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":1423,""py"":56905,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":18288,""py"":146160,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":30179,""py"":14616,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":16690,""py"":119074,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":27863,""py"":11811,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":27863,""py"":7335,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":56721,""py"":108065,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":149038,""py"":108065,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":26796,""py"":66351,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":13236,""py"":7548,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":30126,""py"":15916,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":86901,""py"":58321,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":135596,""py"":169824,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-05408,"SYNTHETIC CO 05408 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands, except per-share data)
+Net sales | 846,625 | 91,433
+Segment revenue (not consolidated) | 282,208 | 30,477
+Gross profit | 470,403 | 60,722
+Research and development expense | 130,470 | 8,350
+Selling and marketing expense | 60,894 | 6,244
+General and administrative expense | 10,878 | 15,469,000
+Operating income | 170,251 | 30,659
+Net income | 126,411 | 22,139
+Interest expense | 7,429,000 | 8,593
+Depreciation and amortization | 19,425 | 20,865
+Cash and cash equivalents | 61,917 | 43,958,000
+Total current assets | 23,618 | 9,755
+Total current liabilities | 47,257 | 9,755
+Current portion of long-term debt | 11,582 | 8,611
+Long-term debt, net of current portion | 15,288 | 46,784
+Total liabilities | 233,232 | 86,649
+Total stockholders’ equity | 166,289 | 125,374
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":846625,""py"":91433,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":470403,""py"":60722,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":130470,""py"":8350,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":60894,""py"":6244,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":10878,""py"":15469000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":170251,""py"":30659,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":126411,""py"":22139,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":7429000,""py"":8593,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":19425,""py"":20865,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":61917,""py"":43958000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":23618,""py"":9755,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":47257,""py"":9755,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":11582,""py"":8611,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":15288,""py"":46784,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":233232,""py"":86649,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":166289,""py"":125374,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-05438,"SYNTHETIC CO 05438 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+USD, rounded to nearest thousand
+Net sales (2026) 751,703; prior year (2025) 323,856
+Segment revenue (not consolidated) | 250,567 | 107,952
+Gross profit (2026) 539,167; prior year (2025) 157,712
+Research and development expense (2026) 55,687; prior year (2025) 55,687
+Selling and marketing expense (2026) 175,910; prior year (2025) 41,030
+General and administrative expense (2026) 175,910; prior year (2025) 16,431
+Operating income (2026) 203,394; prior year (2025) 51,297
+Net income (2026) 177,830; prior year (2025) 34,854
+Interest expense (2026) 7,684; prior year (2025) 1,547
+Depreciation and amortization (2026) 27,045; prior year (2025) 16,974
+Cash and cash equivalents (2026) 27,045; prior year (2025) 61,284
+Total current assets (2026) 53,544; prior year (2025) 90,488
+Total current liabilities (2026) 35,746; prior year (2025) 60,792
+Current portion of long-term debt (2026) 3,975,000; prior year (2025) 3,975
+Long-term debt, net of current portion (2026) 22,078; prior year (2025) 60,085
+Total liabilities (2026) 179,830; prior year (2025) 108,956
+Total stockholders’ equity (2026) 122,102; prior year (2025) 323,856
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":751703,""py"":323856,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":539167,""py"":157712,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":55687,""py"":55687,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":175910,""py"":41030,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":175910,""py"":16431,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":203394,""py"":51297,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":177830,""py"":34854,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":7684,""py"":1547,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":27045,""py"":16974,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":27045,""py"":61284,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":53544,""py"":90488,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":35746,""py"":60792,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":3975000,""py"":3975,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":22078,""py"":60085,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":179830,""py"":108956,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":122102,""py"":323856,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-05785,"SYNTHETIC CO 05785 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(USD thousands)
+Total stockholders’ equity .............. $46,270 (2026) | $12,492 (2025)
+Segment revenue (not consolidated) | 201,332 | 51,890
+Total liabilities .............. $179,587 (2026) | $110,594 (2025)
+Long-term debt, net of current portion .............. $27,153 (2026) | $59,699 (2025)
+Current portion of long-term debt .............. $27,153 (2026) | $15,461 (2025)
+Total current liabilities .............. $98,035 (2026) | $98,035 (2025)
+Total current assets .............. $82,956 (2026) | $52,649 (2025)
+Cash and cash equivalents .............. $62,731 (2026) | $52,649 (2025)
+Depreciation and amortization .............. $9,378 (2026) | $26,925,000 (2025)
+Interest expense .............. $9,378 (2026) | $1,151 (2025)
+Net income .............. $26,112 (2026) | $9,897 (2025)
+Operating income .............. $46,518 (2026) | $17,248 (2025)
+General and administrative expense .............. $113,755 (2026) | $20,859 (2025)
+Selling and marketing expense .............. $36,592 (2026) | $23,839 (2025)
+Research and development expense .............. $36,592 (2026) | $21,001 (2025)
+Gross profit .............. $287,974 (2026) | $82,947 (2025)
+Total revenue .............. $603,997 (2026) | $155,672 (2025)
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":603997,""py"":155672,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":287974,""py"":82947,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":36592,""py"":21001,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":36592,""py"":23839,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":113755,""py"":20859,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":46518,""py"":17248,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":26112,""py"":9897,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":9378,""py"":1151,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":9378,""py"":26925000,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":62731,""py"":52649,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":82956,""py"":52649,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":98035,""py"":98035,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":27153,""py"":15461,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":27153,""py"":59699,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":179587,""py"":110594,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":46270,""py"":12492,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-06517,"SYNTHETIC CO 06517 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(USD thousands)
+Total stockholders’ equity [1] ........ $30,243 FY2026; $91,921 FY2025
+Segment revenue (not consolidated) | 38,927 | 227,044
+Total liabilities [1] ........ $148,948 FY2026; $227,145 FY2025
+Long-term debt, net of current portion [1] ........ $50,401 FY2026; $227,145 FY2025
+Current portion of long-term debt [1] ........ $739 FY2026; $3,415 FY2025
+Total current liabilities [1] ........ $29,529 FY2026; $26,850 FY2025
+Total current assets [1] ........ $96,263 FY2026; $96,263 FY2025
+Cash and cash equivalents [1] ........ $39,235 FY2026; $2,118 FY2025
+Depreciation and amortization [1] ........ $15,325 FY2026; $12,165 FY2025
+Interest expense [1] ........ $2,809 FY2026; $7,245,000 FY2025
+Net income [1] ........ $-2,320 FY2026; $182,982 FY2025
+Operating income [1] ........ $-3,313 FY2026; $243,554 FY2025
+General and administrative expense [1] ........ $15,164 FY2026; $43,829 FY2025
+Selling and marketing expense [1] ........ $21,225 FY2026; $35,363 FY2025
+Research and development expense [1] ........ $15,476 FY2026; $59,846 FY2025
+Gross profit [1] ........ $15,476 FY2026; $382,592 FY2025
+Total revenue [1] ........ $116,782 FY2026; $681,134 FY2025
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":116782,""py"":681134,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":15476,""py"":382592,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":15476,""py"":59846,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":21225,""py"":35363,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":15164,""py"":43829,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":-3313,""py"":243554,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":-2320,""py"":182982,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":2809,""py"":7245,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":15325,""py"":12165,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":39235,""py"":2118,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":96263,""py"":96263,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":29529,""py"":26850,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":739,""py"":3415,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":50401,""py"":227145,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":148948,""py"":227145,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":30243,""py"":91921,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-07126,"SYNTHETIC CO 07126 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+USD, rounded to nearest thousand
+Net sales (2026) 606,170; prior year (2025) 606,983
+Segment revenue (not consolidated) | 202,056 | 202,327
+Gross profit (2026) 360,222; prior year (2025) 407,992
+Research and development expense (2026) 74,192; prior year (2025) 55,037
+Selling and marketing expense (2026) 100,998; prior year (2025) 77,516
+General and administrative expense (2026) 61,023; prior year (2025) 106,237
+Operating income (2026) 124,009; prior year (2025) 169,202
+Net income (2026) 99,933; prior year (2025) 112,173
+Interest expense (2026) 9,455; prior year (2025) 10,196
+Depreciation and amortization (2026) 6,738; prior year (2025) 12,855
+Cash and cash equivalents (2026) 27,478; prior year (2025) 52,482
+Total current assets (2026) 28,124; prior year (2025) 85,520
+Total current liabilities (2026) 39,726; prior year (2025) 61,959
+Current portion of long-term debt (2026) 14,253; prior year (2025) 4,650
+Long-term debt, net of current portion (2026) 56,445; prior year (2025) 50,650
+Total liabilities (2026) 161,647; prior year (2025) 50,367
+Total stockholders’ equity (2026) 155,231; prior year (2025) 32,406
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":606170,""py"":606983,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":360222,""py"":407992,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":74192,""py"":55037,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":100998,""py"":77516,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":61023,""py"":106237,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":124009,""py"":169202,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":99933,""py"":112173,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":9455,""py"":10196,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":6738,""py"":12855,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":27478,""py"":52482,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":28124,""py"":85520,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":39726,""py"":61959,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":14253,""py"":4650,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":56445,""py"":50650,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":161647,""py"":50367,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":155231,""py"":32406,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-07227,"SYNTHETIC CO 07227 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands)
+Total stockholders’ equity | 2026 | 2025
+101,471 | 97,963
+Segment revenue (not consolidated) | 87,573 | 139,063
+Total liabilities | 2026 | 2025
+95,832 | 240,785
+Long-term debt, net of current portion | 2026 | 2025
+24,059 | 61,876
+Current portion of long-term debt | 2026 | 2025
+19,117 | 4,506
+Total current liabilities | 2026 | 2025
+64,995 | 75,793
+Total current assets | 2026 | 2025
+107,782 | 108,449
+Cash and cash equivalents | 2026 | 2025
+67,144 | 59,421
+Depreciation and amortization | 2026 | 2025
+5,113 | 20,464
+Interest expense | 2026 | 2025
+770 | 7,203
+Net income | 2026 | 2025
+5,239 | 88,767
+Operating income | 2026 | 2025
+7,277 | 126,982
+General and administrative expense | 2026 | 2025
+39,715 | 102,420
+Selling and marketing expense | 2026 | 2025
+29,207 | 27,701
+Research and development expense | 2026 | 2025
+28,031 | 32,632
+Gross profit | 2026 | 2025
+104,230 | 289,735
+Net sales | 2026 | 2025
+262,721 | 417,189
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":262721,""py"":417189,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":104230,""py"":289735,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":28031,""py"":32632,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":29207,""py"":27701,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":39715,""py"":102420,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":7277,""py"":126982,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":5239,""py"":88767,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":770,""py"":7203,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":5113,""py"":20464,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":67144,""py"":59421,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":107782,""py"":108449,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":64995,""py"":75793,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":19117,""py"":4506,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":24059,""py"":61876,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":95832,""py"":240785,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":101471,""py"":97963,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-07490,"SYNTHETIC CO 07490 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+USD, rounded to nearest thousand
+Total revenue: FY2026 841,737; FY2025 322,132
+Segment revenue (not consolidated) | 280,579 | 107,377
+Gross profit: FY2026 445,865; FY2025 157,087
+Research and development expense: FY2026 105,719; FY2025 26,846
+Selling and marketing expense: FY2026 157,828; FY2025 36,724
+General and administrative expense: FY2026 66,966; FY2025 29,005
+Operating income: FY2026 115,352; FY2025 64,512
+Net income: FY2026 96,016; FY2025 57,634
+Interest expense: FY2026 11,936; FY2025 1,313
+Depreciation and amortization: FY2026 12,922; FY2025 26,826
+Cash and cash equivalents: FY2026 64,364; FY2025 55,527
+Total current assets: FY2026 145,786; FY2025 48,761
+Total current liabilities: FY2026 96,211; FY2025 90,287
+Current portion of long-term debt: FY2026 2,538; FY2025 16,505
+Long-term debt, net of current portion: FY2026 40,857; FY2025 44,202
+Total liabilities: FY2026 97,521; FY2025 83,215
+Total stockholders’ equity: FY2026 176,187; FY2025 167,200
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":841737,""py"":322132,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":445865,""py"":157087,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":105719,""py"":26846,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":157828,""py"":36724,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":66966,""py"":29005,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":115352,""py"":64512,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":96016,""py"":57634,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":11936,""py"":1313,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":12922,""py"":26826,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":64364,""py"":55527,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":145786,""py"":48761,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":96211,""py"":90287,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":2538,""py"":16505,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":40857,""py"":44202,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":97521,""py"":83215,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":176187,""py"":167200,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-08383,"SYNTHETIC CO 08383 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands)
+Total stockholders’ equity | 130,722 | 115,659
+Segment revenue (not consolidated) | 259,622 | 160,077
+Total liabilities | 105,577 | 22,034
+Long-term debt, net of current portion | 19,818 | 25,736
+Current portion of long-term debt | 17,915 | 19,493
+Total current liabilities | 37,422 | 53,553
+Total current assets | 78,654 | 29,312
+Cash and cash equivalents | 41,778 | 25,531
+Depreciation and amortization | 29,556 | 10,526
+Interest expense | 1,259 | 9,386
+Net income | 168,396 | 111,510
+Operating income | 276,519 | 133,216
+General and administrative expense | 82,405 | 45,183
+Selling and marketing expense | 91,614 | 67,536
+Research and development expense | 116,590 | 44,569
+Gross profit | 567,128 | 290,504
+Total revenue | 778,868 | 480,233
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""total_revenue"":{""cy"":778868,""py"":480233,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":567128,""py"":290504,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":116590,""py"":44569,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":91614,""py"":67536,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":82405,""py"":45183,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":276519,""py"":133216,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":168396,""py"":111510,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":1259,""py"":9386,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":29556,""py"":10526,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":41778,""py"":25531,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":78654,""py"":29312,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":37422,""py"":53553,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":17915,""py"":19493,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":19818,""py"":25736,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":105577,""py"":22034,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":130722,""py"":115659,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""not_found"":[]}",,,,,,,,,0,
+C65791397D,CASE-08436,"SYNTHETIC CO 08436 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands, except per-share data)
+Total revenue | $616,011 | $263,293
+Segment revenue (not consolidated) | 205,337 | 87,764
+Gross profit | $409,339 | $120,739
+Research and development expense | $55,710 | $24,679
+Selling and marketing expense | $66,434 | $52,295
+General and administrative expense | $115,929 | $46,086
+Operating income | $171,266 | $-2,321
+Net income | $96,206 | $-1,744
+Interest expense | $8,971 | $7,652
+Depreciation and amortization | $20,585 | $14,185
+Cash and cash equivalents | $28,841 | $21,816
+Total current assets | $35,212 | $76,011
+Total current liabilities | $96,550 | $88,886
+Current portion of long-term debt | $14,159 | $11,467
+Long-term debt, net of current portion | $44,513 | $62,887
+Total liabilities | $161,708 | $191,203
+Total stockholders’ equity | $199,280 | $180,020
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":616011,""py"":263293,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":409339,""py"":120739,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":55710,""py"":24679,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":66434,""py"":52295,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":115929,""py"":46086,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":171266,""py"":-2321,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":96206,""py"":-1744,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":8971,""py"":7652,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":20585,""py"":14185,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":28841,""py"":21816,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":35212,""py"":76011,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":96550,""py"":88886,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":14159,""py"":11467,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":44513,""py"":62887,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":161708,""py"":191203,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":199280,""py"":180020,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-08501,"SYNTHETIC CO 08501 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(USD thousands)
+Total stockholders’ equity [1] ........ $93,319 FY2026; $70,001 FY2025
+Segment revenue (not consolidated) | 124,186 | 243,465
+Total liabilities [1] ........ $83,163 FY2026; $228,926 FY2025
+Long-term debt, net of current portion [1] ........ $9,316 FY2026; $38,362 FY2025
+Current portion of long-term debt [1] ........ $3,437 FY2026; $8,700 FY2025
+Total current liabilities [1] ........ $29,383 FY2026; $36,174 FY2025
+Total current assets [1] ........ $114,213 FY2026; $112,850 FY2025
+Cash and cash equivalents [1] ........ $46,598 FY2026; $22,022 FY2025
+Depreciation and amortization [1] ........ $8,006 FY2026; $23,403 FY2025
+Interest expense [1] ........ $10,292 FY2026; $9,930 FY2025
+Net income [1] ........ $45,837 FY2026; $138,894 FY2025
+Operating income [1] ........ $76,378 FY2026; $205,619 FY2025
+General and administrative expense [1] ........ $88,471 FY2026; $53,741 FY2025
+Selling and marketing expense [1] ........ $57,852 FY2026; $117,270 FY2025
+Research and development expense [1] ........ $45,177 FY2026; $102,049 FY2025
+Gross profit [1] ........ $267,878 FY2026; $478,679 FY2025
+Total revenue [1] ........ $372,560 FY2026; $730,395 FY2025
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":372560,""py"":730395,""page"":""1""},""gross_margin"":{""cy"":267878,""py"":478679,""page"":""1""},""research_and_development"":{""cy"":45177,""py"":102049,""page"":""1""},""sales_and_marketing"":{""cy"":57852,""py"":117270,""page"":""1""},""general_and_administrative"":{""cy"":88471,""py"":53741,""page"":""1""},""operating_income"":{""cy"":76378,""py"":205619,""page"":""1""},""net_income"":{""cy"":45837,""py"":138894,""page"":""1""},""interest_expense"":{""cy"":10292,""py"":9930,""page"":""1""},""depreciation_amortization"":{""cy"":8006,""py"":23403,""page"":""1""},""cash_and_equivalents"":{""cy"":46598,""py"":22022,""page"":""1""},""total_current_assets"":{""cy"":114213,""py"":112850,""page"":""1""},""total_current_liabilities"":{""cy"":29383,""py"":36174,""page"":""1""},""current_portion_ltd"":{""cy"":3437,""py"":8700,""page"":""1""},""long_term_debt"":{""cy"":9316,""py"":38362,""page"":""1""},""total_liabilities"":{""cy"":83163,""py"":228926,""page"":""1""}}",,,,,,,,,0,
+C65791397D,CASE-08673,"SYNTHETIC CO 08673 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(USD thousands)
+Total stockholders’ equity .............. $165,680 (2026) | $165,576 (2025)
+Segment revenue (not consolidated) | 158,149 | 68,431
+Total liabilities .............. $104,619 (2026) | $117,511 (2025)
+Long-term debt, net of current portion .............. $26,668 (2026) | $35,247 (2025)
+Current portion of long-term debt .............. $17,305 (2026) | $6,311 (2025)
+Total current liabilities .............. $58,320 (2026) | $85,677 (2025)
+Total current assets .............. $114,784 (2026) | $96,993 (2025)
+Cash and cash equivalents .............. $65,670 (2026) | $32,635 (2025)
+Depreciation and amortization .............. $20,410 (2026) | $13,311 (2025)
+Interest expense .............. $4,884 (2026) | $5,012 (2025)
+Net income .............. $3,014 (2026) | $27,681 (2025)
+Operating income .............. $4,927 (2026) | $34,444 (2025)
+General and administrative expense .............. $59,945 (2026) | $37,310 (2025)
+Selling and marketing expense .............. $55,491 (2026) | $12,671 (2025)
+Research and development expense .............. $53,371 (2026) | $21,613 (2025)
+Gross profit .............. $173,734 (2026) | $106,038 (2025)
+Total revenue .............. $474,449 (2026) | $205,295 (2025)
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30"",""not_found"":[],""total_revenue"":{""cy"":474449,""py"":205295,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":173734,""py"":106038,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":53371,""py"":21613,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":55491,""py"":12671,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":59945,""py"":37310,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":4927,""py"":34444,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":3014,""py"":27681,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":4884,""py"":5012,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":20410,""py"":13311,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":65670,""py"":32635,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":114784,""py"":96993,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":58320,""py"":85677,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":17305,""py"":6311,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":26668,""py"":35247,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":104619,""py"":117511,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":165680,""py"":165576,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,
+C65791397D,CASE-09856,"SYNTHETIC CO 09856 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands, except per-share data)
+Net sales | 115,654 | 100,813
+Segment revenue (not consolidated) | 38,551 | 33,604
+Gross profit | 81,329 | 54,605
+Research and development expense | 14,121 | 13,582
+Selling and marketing expense | 12,003 | 15,672
+General and administrative expense | 12,495 | 7,631
+Operating income | 42,710 | 17,720
+Net income | 27,658 | 14,277
+Interest expense | 4,423 | 7,984
+Depreciation and amortization | 16,138 | 4,793
+Cash and cash equivalents | 54,507 | 52,259
+Total current assets | 36,565 | 39,008
+Total current liabilities | 18,489 | 39,490
+Current portion of long-term debt | 14,566 | 18,073
+Long-term debt, net of current portion | 10,910 | 27,590
+Total liabilities | 176,369 | 233,551
+Total stockholders’ equity | 108,701 | 139,303
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":115654,""py"":100813,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""gross_margin"":{""cy"":81329,""py"":54605,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""research_and_development"":{""cy"":14121,""py"":13582,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""sales_and_marketing"":{""cy"":12003,""py"":15672,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""general_and_administrative"":{""cy"":12495,""py"":7631,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""operating_income"":{""cy"":42710,""py"":17720,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""net_income"":{""cy"":27658,""py"":14277,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""interest_expense"":{""cy"":4423,""py"":7984,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""depreciation_amortization"":{""cy"":16138,""py"":4793,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""cash_and_equivalents"":{""cy"":54507,""py"":52259,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_assets"":{""cy"":36565,""py"":39008,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_current_liabilities"":{""cy"":18489,""py"":39490,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""current_portion_ltd"":{""cy"":14566,""py"":18073,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""long_term_debt"":{""cy"":10910,""py"":27590,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""total_liabilities"":{""cy"":176369,""py"":233551,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""},""stockholders_equity"":{""cy"":108701,""py"":139303,""page"":""CONSOLIDATED STATEMENTS OF OPERATIONS""}}",,,,,,,,,0,

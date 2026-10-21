@@ -1,0 +1,16 @@
+{
+  "records": 24,
+  "per_tier": {
+    "50": 8,
+    "75": 8,
+    "100": 8
+  },
+  "layouts_per_tier": {
+    "8 statement styles \u00d7 sampled records": 1
+  },
+  "selection": "deterministic, stratified by quality tier and statement style; seed 20261020",
+  "inputs": "statements-quality-mix-sample-24.jsonl",
+  "inputs_sha256": "02672a932af60be5cbdcaf46c4fed6606f0ac08469c245e7b26953fdbf2ba7e2",
+  "ground_truth": "ground-truth-quality-mix-sample-24.jsonl",
+  "ground_truth_sha256": "36876066f6d6401396429a43af37e0e9075698a43e4813ed9259a2a10fc0a9fd"
+}

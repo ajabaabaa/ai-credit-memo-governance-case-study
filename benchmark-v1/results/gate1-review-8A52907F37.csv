@@ -1,0 +1,181 @@
+﻿review_run_id,blinded_case_id,statement_text,extracted_json,borrower_matches_intake,latest_fiscal_year,no_missing_fields,tieout_both_years_pass,two_figures_spot_checked,reviewer_decision,reviewer_correction_json,review_reason,sendback_count,escalated
+8A52907F37,CASE-00000,"SYNTHETIC CO 00000 | Form 10-K | FY end June 30, 2026
+Total Revenue | 582049 | 773500
+Gross Margin | 394171 | 336511
+Research And Development | 27637 | 110701
+Sales And Marketing | 72337 | 55849
+General And Administrative | 77559 | 54207
+Operating Income | 216638 | 115754
+Net Income | 137816 | 67322
+Interest Expense | 4144 | 10819
+Depreciation Amortization | 22977 | 18288
+Cash And Equivalents | 24003 | 20074
+Total Current Assets | 26616 | 25111
+Total Current Liabilities | 35737 | 29925
+Current Portion Ltd | 9828 | 16254
+Long Term Debt | 58346 | 41055
+Total Liabilities | 223994 | 226465
+Stockholders Equity | 74076 | 199750
+Lease Interest Expense | 999 | 888","{""company"":""SYNTHETIC CO"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":582049,""py"":773500,""page"":""""},""gross_margin"":{""cy"":394171,""py"":336511,""page"":""""},""research_and_development"":{""cy"":27637,""py"":110701,""page"":""""},""sales_and_marketing"":{""cy"":72337,""py"":55849,""page"":""""},""general_and_administrative"":{""cy"":77559,""py"":54207,""page"":""""},""operating_income"":{""cy"":216638,""py"":115754,""page"":""""},""net_income"":{""cy"":137816,""py"":67322,""page"":""""},""interest_expense"":{""cy"":4144,""py"":10819,""page"":""""},""depreciation_amortization"":{""cy"":22977,""py"":18288,""page"":""""},""cash_and_equivalents"":{""cy"":24003,""py"":20074,""page"":""""},""total_current_assets"":{""cy"":26616,""py"":25111,""page"":""""},""total_current_liabilities"":{""cy"":35737,""py"":29925,""page"":""""},""current_portion_ltd"":{""cy"":9828,""py"":16254,""page"":""""},""long_term_debt"":{""cy"":58346,""py"":41055,""page"":""""},""total_liabilities"":{""cy"":223994,""py"":226465,""page"":""""},""stockholders_equity"":{""cy"":74076,""py"":199750,""page"":""""}}",,,,,,,,,0,
+8A52907F37,CASE-00001,"SYNTHETIC CO 00001 | Form 10-K | FY end June 30, 2026
+Total Revenue | 566250 | 838581
+Gross Margin | 363024 | 625230
+Research And Development | 76846 | 113341
+Sales And Marketing | 36219 | 114962
+General And Administrative | 41675 | 249796
+Operating Income | 208284 | 147131
+Net Income | 187142 | 92026
+Interest Expense | 5754 | 3284
+Depreciation Amortization | 11210 | 19640
+Cash And Equivalents | 49620 | 19080
+Total Current Assets | 32163 | 140998
+Total Current Liabilities | 21040 | 63080
+Current Portion Ltd | 4111 | 7283
+Long Term Debt | 17036 | 57079
+Total Liabilities | 201730 | 245162
+Stockholders Equity | 70055 | 21726
+Lease Interest Expense | 999 | 888","{""company"":""SYNTHETIC CO 00001"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":566250,""py"":838581,""page"":""""},""gross_margin"":{""cy"":363024,""py"":625230,""page"":""""},""research_and_development"":{""cy"":76846,""py"":113341,""page"":""""},""sales_and_marketing"":{""cy"":36219,""py"":114962,""page"":""""},""general_and_administrative"":{""cy"":41675,""py"":249796,""page"":""""},""operating_income"":{""cy"":208284,""py"":147131,""page"":""""},""net_income"":{""cy"":187142,""py"":92026,""page"":""""},""interest_expense"":{""cy"":5754,""py"":3284,""page"":""""},""depreciation_amortization"":{""cy"":11210,""py"":19640,""page"":""""},""cash_and_equivalents"":{""cy"":49620,""py"":19080,""page"":""""},""total_current_assets"":{""cy"":32163,""py"":140998,""page"":""""},""total_current_liabilities"":{""cy"":21040,""py"":63080,""page"":""""},""current_portion_ltd"":{""cy"":4111,""py"":7283,""page"":""""},""long_term_debt"":{""cy"":17036,""py"":57079,""page"":""""},""total_liabilities"":{""cy"":201730,""py"":245162,""page"":""""},""stockholders_equity"":{""cy"":70055,""py"":21726,""page"":""""}}",,,,,,,,,0,
+8A52907F37,CASE-00002,"SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026
+Total Revenue | 678311 | 846427
+Gross Margin | 346510 | 478947
+Research And Development | 68175 | 96211
+Sales And Marketing | 102304 | 93084
+General And Administrative | 56414 | 141531
+Operating Income | 119617 | 148121
+Net Income | 77574 | 106324
+Interest Expense | 7943 | 7409
+Depreciation Amortization | 16063 | 28185
+Cash And Equivalents | 39140 | 25634
+Total Current Assets | 48382 | 22073
+Total Current Liabilities | 17342 | 83295
+Current Portion Ltd | 7433 | 3092
+Long Term Debt | 76645 | 77029
+Total Liabilities | 58023 | 247174
+Stockholders Equity | 111027 | 65270
+Lease Interest Expense | 999 | 888","{""company"":""SYNTHETIC CO 00002"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":846427,""py"":678311,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""gross_margin"":{""cy"":478947,""py"":346510,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""research_and_development"":{""cy"":96211,""py"":68175,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""sales_and_marketing"":{""cy"":93084,""py"":102304,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""general_and_administrative"":{""cy"":141531,""py"":56414,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""operating_income"":{""cy"":148121,""py"":119617,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""net_income"":{""cy"":106324,""py"":77574,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""interest_expense"":{""cy"":7409,""py"":7943,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""depreciation_amortization"":{""cy"":28185,""py"":16063,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""cash_and_equivalents"":{""cy"":25634,""py"":39140,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""total_current_assets"":{""cy"":22073,""py"":48382,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""total_current_liabilities"":{""cy"":83295,""py"":17342,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""current_portion_ltd"":{""cy"":3092,""py"":7433,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""long_term_debt"":{""cy"":77029,""py"":76645,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""total_liabilities"":{""cy"":247174,""py"":58023,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""},""stockholders_equity"":{""cy"":65270,""py"":111027,""page"":""SYNTHETIC CO 00002 | Form 10-K | FY end June 30, 2026""}}",,,,,,,,,0,
+8A52907F37,CASE-00003,"SYNTHETIC CO 00003 | Form 10-K | FY end June 30, 2026
+Total Revenue | 152034 | 211573
+Gross Margin | 91848 | 158126
+Research And Development | 22230 | 12922
+Sales And Marketing | 19515 | 39155
+General And Administrative | 24905 | 29469
+Operating Income | 25198 | 76580
+Net Income | 22563 | 60905
+Interest Expense | 6489 | 5004
+Depreciation Amortization | 9368 | 22859
+Cash And Equivalents | 39089 | 54432
+Total Current Assets | 79086 | 90799
+Total Current Liabilities | 44302 | 64679
+Current Portion Ltd | 16633 | 11885
+Long Term Debt | 33749 | 62548
+Total Liabilities | 184705 | 43858
+Stockholders Equity | 89927 | 144753
+Lease Interest Expense | 999 | 888","{""company"":""SYNTHETIC CO 00003"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":152034,""py"":211573,""page"":""""},""gross_margin"":{""cy"":91848,""py"":158126,""page"":""""},""research_and_development"":{""cy"":22230,""py"":12922,""page"":""""},""sales_and_marketing"":{""cy"":19515,""py"":39155,""page"":""""},""general_and_administrative"":{""cy"":24905,""py"":29469,""page"":""""},""operating_income"":{""cy"":25198,""py"":76580,""page"":""""},""net_income"":{""cy"":22563,""py"":60905,""page"":""""},""interest_expense"":{""cy"":6489,""py"":5004,""page"":""""},""depreciation_amortization"":{""cy"":9368,""py"":22859,""page"":""""},""cash_and_equivalents"":{""cy"":39089,""py"":54432,""page"":""""},""total_current_assets"":{""cy"":79086,""py"":90799,""page"":""""},""total_current_liabilities"":{""cy"":44302,""py"":64679,""page"":""""},""current_portion_ltd"":{""cy"":16633,""py"":11885,""page"":""""},""long_term_debt"":{""cy"":33749,""py"":62548,""page"":""""},""total_liabilities"":{""cy"":184705,""py"":43858,""page"":""""},""stockholders_equity"":{""cy"":89927,""py"":144753,""page"":""""}}",,,,,,,,,0,
+8A52907F37,CASE-00004,"SYNTHETIC CO 00004 | Form 10-K | FY end June 30, 2026
+Total Revenue | 609593 | 205669
+Gross Margin | 377145 | 103141
+Research And Development | 77251 | 32112
+Sales And Marketing | 66011 | 17228
+General And Administrative | 88472 | 14634
+Operating Income | 145411 | 39167
+Net Income | 80114 | 25693
+Interest Expense | 11171 | 8514
+Depreciation Amortization | 13788 | 29599
+Cash And Equivalents | 62285 | 12956
+Total Current Assets | 73977 | 63658
+Total Current Liabilities | 21989 | 82870
+Current Portion Ltd | 10298 | 14698
+Long Term Debt | 71546 | 67159
+Total Liabilities | 230395 | 248326
+Stockholders Equity | 179023 | 54350
+Lease Interest Expense | 999 | 888","{""company"":""SYNTHETIC CO 00004"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":609593,""py"":205669,""page"":""""},""gross_margin"":{""cy"":377145,""py"":103141,""page"":""""},""research_and_development"":{""cy"":77251,""py"":32112,""page"":""""},""sales_and_marketing"":{""cy"":66011,""py"":17228,""page"":""""},""general_and_administrative"":{""cy"":88472,""py"":14634,""page"":""""},""operating_income"":{""cy"":145411,""py"":39167,""page"":""""},""net_income"":{""cy"":80114,""py"":25693,""page"":""""},""interest_expense"":{""cy"":11171,""py"":8514,""page"":""""},""depreciation_amortization"":{""cy"":13788,""py"":29599,""page"":""""},""cash_and_equivalents"":{""cy"":62285,""py"":12956,""page"":""""},""total_current_assets"":{""cy"":73977,""py"":63658,""page"":""""},""total_current_liabilities"":{""cy"":21989,""py"":82870,""page"":""""},""current_portion_ltd"":{""cy"":10298,""py"":14698,""page"":""""},""long_term_debt"":{""cy"":71546,""py"":67159,""page"":""""},""total_liabilities"":{""cy"":230395,""py"":248326,""page"":""""},""stockholders_equity"":{""cy"":179023,""py"":54350,""page"":""""}}",,,,,,,,,0,
+8A52907F37,CASE-00005,"SYNTHETIC CO 00005 | Form 10-K | FY end June 30, 2026
+Total Revenue | 166887 | 293189
+Gross Margin | 100633 | 109514
+Research And Development | 11038 | 40510
+Sales And Marketing | 17289 | 38622
+General And Administrative | 11623 | 34243
+Operating Income | 60683 | -3861
+Net Income | 46974 | -3087
+Interest Expense | 2197 | 3121
+Depreciation Amortization | 18745 | 11163
+Cash And Equivalents | 16245 | 19798
+Total Current Assets | 58717 | 131797
+Total Current Liabilities | 72909 | 35675
+Current Portion Ltd | 12121 | 16292
+Long Term Debt | 50267 | 9857
+Total Liabilities | 247925 | 76701
+Stockholders Equity | 194321 | 144510
+Lease Interest Expense | 999 | 888","{""company"":""SYNTHETIC CO 00005"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":166887,""py"":293189,""page"":""""},""gross_margin"":{""cy"":100633,""py"":109514,""page"":""""},""research_and_development"":{""cy"":11038,""py"":40510,""page"":""""},""sales_and_marketing"":{""cy"":17289,""py"":38622,""page"":""""},""general_and_administrative"":{""cy"":11623,""py"":34243,""page"":""""},""operating_income"":{""cy"":60683,""py"":-3861,""page"":""""},""net_income"":{""cy"":46974,""py"":-3087,""page"":""""},""interest_expense"":{""cy"":2197,""py"":3121,""page"":""""},""depreciation_amortization"":{""cy"":18745,""py"":11163,""page"":""""},""cash_and_equivalents"":{""cy"":16245,""py"":19798,""page"":""""},""total_current_assets"":{""cy"":58717,""py"":131797,""page"":""""},""total_current_liabilities"":{""cy"":72909,""py"":35675,""page"":""""},""current_portion_ltd"":{""cy"":12121,""py"":16292,""page"":""""},""long_term_debt"":{""cy"":50267,""py"":9857,""page"":""""},""total_liabilities"":{""cy"":247925,""py"":76701,""page"":""""},""stockholders_equity"":{""cy"":194321,""py"":144510,""page"":""""}}",,,,,,,,,0,
+8A52907F37,CASE-00006,"SYNTHETIC CO 00006 | Form 10-K | FY end June 30, 2026
+Total Revenue | 542295 | 303321
+Gross Margin | 209271 | 139455
+Research And Development | 47339 | 38845
+Sales And Marketing | 30055 | 30504
+General And Administrative | 75450 | 50540
+Operating Income | 56427 | 19566
+Net Income | 40921 | 11931
+Interest Expense | 6677 | 3113
+Depreciation Amortization | 5685 | 4454
+Cash And Equivalents | 14111 | 43927
+Total Current Assets | 123078 | 98418
+Total Current Liabilities | 23254 | 16937
+Current Portion Ltd | 1722 | 17890
+Long Term Debt | 34752 | 22120
+Total Liabilities | 174133 | 171625
+Stockholders Equity | 95539 | 193951
+Lease Interest Expense | 999 | 888","{""company"":""SYNTHETIC CO 00006"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":542295,""py"":303321,""page"":""""},""gross_margin"":{""cy"":209271,""py"":139455,""page"":""""},""research_and_development"":{""cy"":47339,""py"":38845,""page"":""""},""sales_and_marketing"":{""cy"":30055,""py"":30504,""page"":""""},""general_and_administrative"":{""cy"":75450,""py"":50540,""page"":""""},""operating_income"":{""cy"":56427,""py"":19566,""page"":""""},""net_income"":{""cy"":40921,""py"":11931,""page"":""""},""interest_expense"":{""cy"":6677,""py"":3113,""page"":""""},""depreciation_amortization"":{""cy"":5685,""py"":4454,""page"":""""},""cash_and_equivalents"":{""cy"":14111,""py"":43927,""page"":""""},""total_current_assets"":{""cy"":123078,""py"":98418,""page"":""""},""total_current_liabilities"":{""cy"":23254,""py"":16937,""page"":""""},""current_portion_ltd"":{""cy"":1722,""py"":17890,""page"":""""},""long_term_debt"":{""cy"":34752,""py"":22120,""page"":""""},""total_liabilities"":{""cy"":174133,""py"":171625,""page"":""""},""stockholders_equity"":{""cy"":95539,""py"":193951,""page"":""""}}",,,,,,,,,0,
+8A52907F37,CASE-00007,"SYNTHETIC CO 00007 | Form 10-K | FY end June 30, 2026
+Total Revenue | 474087 | 219141
+Gross Margin | 297286 | 135046
+Research And Development | 70591 | 15578
+Sales And Marketing | 47979 | 41150
+General And Administrative | 39065 | 15961
+Operating Income | 139651 | 62357
+Net Income | 115421 | 35520
+Interest Expense | 11456 | 11829
+Depreciation Amortization | 12087 | 22763
+Cash And Equivalents | 57743 | 43821
+Total Current Assets | 34550 | 114231
+Total Current Liabilities | 47136 | 42088
+Current Portion Ltd | 11970 | 4970
+Long Term Debt | 56843 | 38777
+Total Liabilities | 244850 | 39198
+Stockholders Equity | 124064 | 125383
+Lease Interest Expense | 999 | 888","{""company"":""SYNTHETIC CO 00007"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":474087,""py"":219141,""page"":""""},""gross_margin"":{""cy"":297286,""py"":135046,""page"":""""},""research_and_development"":{""cy"":70591,""py"":15578,""page"":""""},""sales_and_marketing"":{""cy"":47979,""py"":41150,""page"":""""},""general_and_administrative"":{""cy"":39065,""py"":15961,""page"":""""},""operating_income"":{""cy"":139651,""py"":62357,""page"":""""},""net_income"":{""cy"":115421,""py"":35520,""page"":""""},""interest_expense"":{""cy"":11456,""py"":11829,""page"":""""},""depreciation_amortization"":{""cy"":12087,""py"":22763,""page"":""""},""cash_and_equivalents"":{""cy"":57743,""py"":43821,""page"":""""},""total_current_assets"":{""cy"":34550,""py"":114231,""page"":""""},""total_current_liabilities"":{""cy"":47136,""py"":42088,""page"":""""},""current_portion_ltd"":{""cy"":11970,""py"":4970,""page"":""""},""long_term_debt"":{""cy"":56843,""py"":38777,""page"":""""},""total_liabilities"":{""cy"":244850,""py"":39198,""page"":""""},""stockholders_equity"":{""cy"":124064,""py"":125383,""page"":""""}}",,,,,,,,,0,
+8A52907F37,CASE-00008,"SYNTHETIC CO 00008 | Form 10-K | FY end June 30, 2026
+Total Revenue | 122177 | 547397
+Gross Margin | 72158 | 195673
+Research And Development | 10296 | 39491
+Sales And Marketing | 6661 | 92159
+General And Administrative | 20730 | 37136
+Operating Income | 34471 | 26887
+Net Income | 26329 | 17104
+Interest Expense | 9890 | 9015
+Depreciation Amortization | 4948 | 25732
+Cash And Equivalents | 34276 | 29961
+Total Current Assets | 94745 | 116233
+Total Current Liabilities | 47141 | 23229
+Current Portion Ltd | 3726 | 12636
+Long Term Debt | 44087 | 43369
+Total Liabilities | 65854 | 63694
+Stockholders Equity | 54221 | 193473
+Lease Interest Expense | 999 | 888","{""company"":""SYNTHETIC CO 00008"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":547397,""py"":122177,""page"":""""},""gross_margin"":{""cy"":195673,""py"":72158,""page"":""""},""research_and_development"":{""cy"":39491,""py"":10296,""page"":""""},""sales_and_marketing"":{""cy"":92159,""py"":6661,""page"":""""},""general_and_administrative"":{""cy"":37136,""py"":20730,""page"":""""},""operating_income"":{""cy"":26887,""py"":34471,""page"":""""},""net_income"":{""cy"":17104,""py"":26329,""page"":""""},""interest_expense"":{""cy"":9015,""py"":9890,""page"":""""},""depreciation_amortization"":{""cy"":25732,""py"":4948,""page"":""""},""cash_and_equivalents"":{""cy"":29961,""py"":34276,""page"":""""},""total_current_assets"":{""cy"":116233,""py"":94745,""page"":""""},""total_current_liabilities"":{""cy"":23229,""py"":47141,""page"":""""},""current_portion_ltd"":{""cy"":12636,""py"":3726,""page"":""""},""long_term_debt"":{""cy"":43369,""py"":44087,""page"":""""},""total_liabilities"":{""cy"":63694,""py"":65854,""page"":""""},""stockholders_equity"":{""cy"":193473,""py"":54221,""page"":""""}}",,,,,,,,,0,
+8A52907F37,CASE-00009,"SYNTHETIC CO 00009 | Form 10-K | FY end June 30, 2026
+Total Revenue | 180502 | 501312
+Gross Margin | 102285 | 196779
+Research And Development | 13627 | 55944
+Sales And Marketing | 24740 | 52095
+General And Administrative | 34145 | 37718
+Operating Income | 29773 | 51022
+Net Income | 24457 | 31436
+Interest Expense | 10399 | 3517
+Depreciation Amortization | 17528 | 10159
+Cash And Equivalents | 34900 | 63671
+Total Current Assets | 129815 | 43701
+Total Current Liabilities | 89404 | 55635
+Current Portion Ltd | 12934 | 16862
+Long Term Debt | 28889 | 50998
+Total Liabilities | 81878 | 238033
+Stockholders Equity | 185780 | 117780
+Lease Interest Expense | 999 | 888","{""company"":""SYNTHETIC CO 00009"",""form_type"":""10-K"",""fiscal_year_end"":""June 30, 2026"",""not_found"":[],""total_revenue"":{""cy"":501312,""py"":180502,""page"":""""},""gross_margin"":{""cy"":196779,""py"":102285,""page"":""""},""research_and_development"":{""cy"":55944,""py"":13627,""page"":""""},""sales_and_marketing"":{""cy"":52095,""py"":24740,""page"":""""},""general_and_administrative"":{""cy"":37718,""py"":34145,""page"":""""},""operating_income"":{""cy"":51022,""py"":29773,""page"":""""},""net_income"":{""cy"":31436,""py"":24457,""page"":""""},""interest_expense"":{""cy"":3517,""py"":10399,""page"":""""},""depreciation_amortization"":{""cy"":10159,""py"":17528,""page"":""""},""cash_and_equivalents"":{""cy"":63671,""py"":34900,""page"":""""},""total_current_assets"":{""cy"":43701,""py"":129815,""page"":""""},""total_current_liabilities"":{""cy"":55635,""py"":89404,""page"":""""},""current_portion_ltd"":{""cy"":16862,""py"":12934,""page"":""""},""long_term_debt"":{""cy"":50998,""py"":28889,""page"":""""},""total_liabilities"":{""cy"":238033,""py"":81878,""page"":""""},""stockholders_equity"":{""cy"":117780,""py"":185780,""page"":""""}}",,,,,,,,,0,

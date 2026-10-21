@@ -1,0 +1,17 @@
+# Local render/build intermediates; committed article figures and PDF live elsewhere.
+benchmark-v1/tmp/
+**/__pycache__/
+*.py[cod]
+
+# Keep credentials and machine-local settings out of Git.
+.env
+.env.*
+!.env.example
+
+# These generated one-million-row payload files exceed GitHub's 100 MiB blob limit.
+# They are reproducible from the committed seeded generator and are not source code.
+benchmark-v1/data/statements-1000000.jsonl
+benchmark-v1/data/ground-truth-1000000.jsonl
+
+# Keep the mapping key private until blinded Gate 1 review is complete.
+benchmark-v1/results/gate1-review-key.csv

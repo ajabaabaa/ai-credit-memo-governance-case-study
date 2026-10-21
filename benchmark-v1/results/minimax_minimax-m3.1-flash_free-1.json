@@ -1,0 +1,20 @@
+{
+  "records": 1,
+  "seed": 20261020,
+  "model": "minimax/minimax-m3.1-flash:free",
+  "elapsed_seconds": 15.49835300000268,
+  "extraction_seconds": 15.49830330000259,
+  "records_per_second": 0.06452298511976254,
+  "field_accuracy": 1.0,
+  "fields_correct": 32,
+  "fields_total": 32,
+  "record_exact_accuracy": 1.0,
+  "tieout_failures": 0,
+  "control_failures": 0,
+  "prompt_tokens": 492,
+  "completion_tokens": 1614,
+  "total_tokens": 2106,
+  "inference_cost_usd": 0.0,
+  "ratios_deterministic": true,
+  "status": "OpenCode model inference"
+}

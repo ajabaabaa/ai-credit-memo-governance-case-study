@@ -1,0 +1,3 @@
+model,records,provider_completed,provider_failed,finish_length,json_parse_failures,parsed_but_schema_incomplete,schema_complete_records,field_accuracy_source,latent_ratio_accuracy,batch_cost_usd,batch_seconds
+openai/gpt-oss-20b:batch,10000,10000,0,10000,10000,0,0,0.0,0.0,0.883748224,2271
+mistralai/ministral-8b-2512:batch,10000,10000,0,9462,9461,539,0,0.017678125,0.0,0.948817305,1440

@@ -1,0 +1,65 @@
+{
+  "status": "completed",
+  "cohort": "quality-mix-10000",
+  "records": 10000,
+  "input_sha256": "d288e317576cc95a3ccaaa8ffd80cd0da42ac0a6b549d22fb595c42e5fbc0bbb",
+  "truth_sha256": "ed89602f6a34317187521b3dd4aa74dc9ac4724a58899f607e596d1efae6f331",
+  "prompt_sha256": "bfc0e19152b518c4867edb5c91124210ffedd801c3e7c58225e8f608522a368a",
+  "input_token_estimate_cl100k": 6456176,
+  "input_token_buffer": 1.2,
+  "max_output_tokens_per_record": 640,
+  "jobs": [
+    {
+      "model": "openai/gpt-oss-20b:batch",
+      "display_name": "OpenAI: gpt-oss-20b (batch)",
+      "input_rate": 2.4e-08,
+      "output_rate": 1.12e-07,
+      "estimate_usd": 0.9027378688,
+      "call_id": "daac60da434500c0",
+      "status": "completed",
+      "batch_id": "batch-1792542770-Y1hYmOYzXS1G1f8JlNBd",
+      "provider": "DeepInfra",
+      "provider_status": "completed",
+      "counts": {
+        "total": 10000,
+        "completed": 10000,
+        "failed": 0
+      },
+      "actual_cost_usd": 0.883748224,
+      "aggregate_usage": {
+        "prompt_tokens": 6956176,
+        "completion_tokens": 6400000,
+        "total_tokens": 13356176,
+        "cost": 0.883748224,
+        "is_byok": false
+      },
+      "raw_results": "openrouter-batch-openai_gpt-oss-20b_batch.json"
+    },
+    {
+      "model": "mistralai/ministral-8b-2512:batch",
+      "display_name": "Mistral: Ministral 3 8B 2512 (batch)",
+      "input_rate": 7.5e-08,
+      "output_rate": 7.5e-08,
+      "estimate_usd": 1.0610558399999999,
+      "call_id": "2ff3882e0fed84b8",
+      "status": "completed",
+      "batch_id": "batch-1792542817-YrzXIh7aAfn7TzvgfCOO",
+      "provider": "Mistral",
+      "provider_status": "completed",
+      "counts": {
+        "total": 10000,
+        "completed": 10000,
+        "failed": 0
+      },
+      "actual_cost_usd": 0.948817305,
+      "aggregate_usage": {
+        "prompt_tokens": 8413151,
+        "completion_tokens": 6288310,
+        "total_tokens": 14701461,
+        "cost": 0.948817305,
+        "is_byok": false
+      },
+      "raw_results": "openrouter-batch-mistralai_ministral-8b-2512_batch.json"
+    }
+  ]
+}

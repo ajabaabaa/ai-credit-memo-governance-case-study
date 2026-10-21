@@ -1,0 +1,70 @@
+﻿review_run_id,blinded_case_id,statement_text,extracted_json,borrower_matches_intake,latest_fiscal_year,no_missing_fields,tieout_both_years_pass,two_figures_spot_checked,reviewer_decision,reviewer_correction_json,review_reason,sendback_count,escalated
+D8B8B07632,CASE-00124,"SYNTHETIC CO 00124 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands, except per-share data)
+Total revenue | $333,939 | $376,637
+Segment revenue (not consolidated) | 111,313 | 125,545
+Gross profit | $20,936 | $235,937,000
+Research and development expense | $27,608 | $27,773
+Selling and marketing expense | $17,054 | $2,242
+General and administrative expense | $64,020 | $64,020
+Operating income | $100,686 | $121,888
+Net income | $8,627 | $85,461
+Interest expense | $4,640 | $28,235
+Depreciation and amortization | $28,306 | $28,235
+Cash and cash equivalents | $50,454 | $50,454
+Total current assets | $67,217 | $119,282
+Total current liabilities | $6,721 | $37,278,000
+Current portion of long-term debt | $9,619 | $6,492
+Long-term debt, net of current portion | $17,472 | $6,492
+Total liabilities | $34,292 | $223,541
+Total stockholders’ equity | $333,939 | $56,967
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.",{},,,,,,,,,0,
+D8B8B07632,CASE-03399,"SYNTHETIC CO 03399 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands)
+Total stockholders’ equity | 24,141 | 161,579
+Segment revenue (not consolidated) | 146,348 | 174,400
+Total liabilities | 172,546 | 239,466
+Long-term debt, net of current portion | 49,276 | 35,823
+Current portion of long-term debt | 11,889 | 1,046
+Total current liabilities | 20,230 | 75,188,000
+Total current assets | 114,141 | 88,852
+Cash and cash equivalents | 52,600 | 17,639
+Depreciation and amortization | 26,315 | 15,505
+Interest expense | 3,434 | 15,505
+Net income | 35,638 | 37,833,000
+Operating income | 57,101 | 65,195
+General and administrative expense | 82,152 | 48,597
+Selling and marketing expense | 26,118 | 58,590
+Research and development expense | 73,932 | 73,932
+Gross profit | 222,492 | 246,314
+Total revenue | 439,045 | 523,201
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.",{},,,,,,,,,0,
+D8B8B07632,CASE-07126,"SYNTHETIC CO 07126 consolidated financial statements, fiscal year ended June 30, 2026 (Form 10-K)
+CONSOLIDATED STATEMENTS OF OPERATIONS
+USD, rounded to nearest thousand
+Net sales (2026) 606,170; prior year (2025) 606,983
+Segment revenue (not consolidated) | 202,056 | 202,327
+Gross profit (2026) 360,222; prior year (2025) 407,992
+Research and development expense (2026) 74,192; prior year (2025) 55,037
+Selling and marketing expense (2026) 100,998; prior year (2025) 77,516
+General and administrative expense (2026) 61,023; prior year (2025) 106,237
+Operating income (2026) 124,009; prior year (2025) 169,202
+Net income (2026) 99,933; prior year (2025) 112,173
+Interest expense (2026) 9,455; prior year (2025) 10,196
+Depreciation and amortization (2026) 6,738; prior year (2025) 12,855
+Cash and cash equivalents (2026) 27,478; prior year (2025) 52,482
+Total current assets (2026) 28,124; prior year (2025) 85,520
+Total current liabilities (2026) 39,726; prior year (2025) 61,959
+Current portion of long-term debt (2026) 14,253; prior year (2025) 4,650
+Long-term debt, net of current portion (2026) 56,445; prior year (2025) 50,650
+Total liabilities (2026) 161,647; prior year (2025) 50,367
+Total stockholders’ equity (2026) 155,231; prior year (2025) 32,406
+Interest expense excludes lease interest.
+Lease interest expense | 999 | 888
+See Note 7 for debt maturities; amounts may not sum due to rounding.",{},,,,,,,,,0,

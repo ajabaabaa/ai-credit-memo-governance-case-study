@@ -1,0 +1,138 @@
+{
+  "records": 3,
+  "records_requested": 3,
+  "seed": 20261020,
+  "dataset_inputs": "data\\statements-quality-mix-smoke3.jsonl",
+  "dataset_sha256": "4265dbc72cfca413c19348648c7aae47a1723303bfc0d61356de867fca98712c",
+  "truth_sha256": "1161d101ccca9264b7c482e17e5f55ec0dc7b3ef0603df105dfa3efe5d09781e",
+  "prompt_sha256": "bfc0e19152b518c4867edb5c91124210ffedd801c3e7c58225e8f608522a368a",
+  "model": "opencode/nemotron-3.5-lightning-free",
+  "provider_route": "opencode",
+  "elapsed_seconds": 343.54438070001197,
+  "extraction_seconds": 343.53731240000343,
+  "records_per_second": 0.008732496202927691,
+  "field_accuracy": 0.0,
+  "field_accuracy_latent": 0.0,
+  "fields_correct": 0,
+  "fields_total": 96,
+  "record_exact_accuracy": 0.0,
+  "ratio_accuracy": 0.0,
+  "ratio_accuracy_latent": 0.0,
+  "ratio_values_correct": 0,
+  "ratio_values_latent_correct": 0,
+  "ratio_values_total": 30,
+  "ratio_exact_records": 0,
+  "quality_tier_breakdown": {
+    "50": {
+      "records": 1,
+      "fields_correct_source": 0,
+      "fields_correct_latent": 0,
+      "fields_total": 32,
+      "ratios_correct_source": 0,
+      "ratios_correct_latent": 0,
+      "ratios_total": 10,
+      "control_failures": 1,
+      "tieout_failures": 2,
+      "field_accuracy_source": 0.0,
+      "field_accuracy_latent": 0.0,
+      "ratio_accuracy_source": 0.0,
+      "ratio_accuracy_latent": 0.0
+    },
+    "75": {
+      "records": 1,
+      "fields_correct_source": 0,
+      "fields_correct_latent": 0,
+      "fields_total": 32,
+      "ratios_correct_source": 0,
+      "ratios_correct_latent": 0,
+      "ratios_total": 10,
+      "control_failures": 1,
+      "tieout_failures": 2,
+      "field_accuracy_source": 0.0,
+      "field_accuracy_latent": 0.0,
+      "ratio_accuracy_source": 0.0,
+      "ratio_accuracy_latent": 0.0
+    },
+    "100": {
+      "records": 1,
+      "fields_correct_source": 0,
+      "fields_correct_latent": 0,
+      "fields_total": 32,
+      "ratios_correct_source": 0,
+      "ratios_correct_latent": 0,
+      "ratios_total": 10,
+      "control_failures": 1,
+      "tieout_failures": 2,
+      "field_accuracy_source": 0.0,
+      "field_accuracy_latent": 0.0,
+      "ratio_accuracy_source": 0.0,
+      "ratio_accuracy_latent": 0.0
+    }
+  },
+  "metadata_exact_records": 0,
+  "metadata_accuracy": 0.0,
+  "tieout_failures": 6,
+  "control_failures": 3,
+  "schema_failures": 3,
+  "missing_field_records": 3,
+  "incorrect_field_values": 96,
+  "prompt_tokens": null,
+  "completion_tokens": null,
+  "total_tokens": null,
+  "token_usage_available": false,
+  "inference_cost_usd": 0.0,
+  "priced_calls": 3,
+  "spending_cap_usd": 2.0,
+  "paid_spend_to_date_usd": 0.0,
+  "failed_calls": 3,
+  "errors": [
+    {
+      "id": 124,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "id": 3399,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "id": 7126,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
+  "ratios_deterministic": true,
+  "summary_only": false,
+  "status": "completed with provider errors",
+  "details": [
+    {
+      "id": 124,
+      "record_exact": false,
+      "metadata_exact": false,
+      "ratio_exact": false,
+      "ratios": null,
+      "gross_margin_tieout_failures": 2,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "extraction": {}
+    },
+    {
+      "id": 3399,
+      "record_exact": false,
+      "metadata_exact": false,
+      "ratio_exact": false,
+      "ratios": null,
+      "gross_margin_tieout_failures": 2,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "extraction": {}
+    },
+    {
+      "id": 7126,
+      "record_exact": false,
+      "metadata_exact": false,
+      "ratio_exact": false,
+      "ratios": null,
+      "gross_margin_tieout_failures": 2,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "extraction": {}
+    }
+  ],
+  "comparability_note": "Three-record one-per-tier probe; all three responses were empty/invalid JSON. Screening only."
+}

@@ -1,0 +1,853 @@
+{
+  "records": 10,
+  "dataset_inputs": "data\\statements-10.jsonl",
+  "dataset_sha256": "007bc06266735d799598492ad8784afa62f1e2244a3686d2c0599e114df607b4",
+  "truth_sha256": "f97bb21f7efff08dff1eee43aa7e656d018a6549b68db9a0bb51398cdad75e44",
+  "model": "opencode/nemotron-3.5-lightning-free",
+  "provider_route": "opencode",
+  "elapsed_seconds": 422.3433379999915,
+  "extraction_seconds": 422.34278810002434,
+  "records_per_second": 0.023677418584024643,
+  "field_accuracy": 0.7,
+  "fields_correct": 224,
+  "fields_total": 320,
+  "record_exact_accuracy": 0.7,
+  "metadata_exact_records": 2,
+  "metadata_accuracy": 0.2,
+  "tieout_failures": 6,
+  "control_failures": 8,
+  "schema_failures": 3,
+  "missing_field_records": 3,
+  "incorrect_field_values": 96,
+  "prompt_tokens": 235083,
+  "completion_tokens": 109652,
+  "total_tokens": 344735,
+  "token_usage_available": true,
+  "inference_cost_usd": 0.0,
+  "priced_calls": 10,
+  "failed_calls": 3,
+  "errors": [
+    {
+      "id": 0,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "id": 1,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "id": 7,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
+  "ratios_deterministic": true,
+  "status": "completed with provider errors",
+  "details": [
+    {
+      "id": 0,
+      "record_exact": false,
+      "metadata_exact": false,
+      "gross_margin_tieout_failures": 2,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "extraction": {},
+      "ratio_exact": false,
+      "ratios": null
+    },
+    {
+      "id": 1,
+      "record_exact": false,
+      "metadata_exact": false,
+      "gross_margin_tieout_failures": 2,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "extraction": {},
+      "ratio_exact": false,
+      "ratios": null
+    },
+    {
+      "id": 2,
+      "record_exact": true,
+      "metadata_exact": false,
+      "gross_margin_tieout_failures": 0,
+      "error": null,
+      "extraction": {
+        "company": "SYNTHETIC CO",
+        "form_type": "10-K",
+        "fiscal_year_end": "June 30, 2026",
+        "not_found": [],
+        "total_revenue": {
+          "cy": 678311,
+          "py": 846427,
+          "page": ""
+        },
+        "gross_margin": {
+          "cy": 346510,
+          "py": 478947,
+          "page": ""
+        },
+        "research_and_development": {
+          "cy": 68175,
+          "py": 96211,
+          "page": ""
+        },
+        "sales_and_marketing": {
+          "cy": 102304,
+          "py": 93084,
+          "page": ""
+        },
+        "general_and_administrative": {
+          "cy": 56414,
+          "py": 141531,
+          "page": ""
+        },
+        "operating_income": {
+          "cy": 119617,
+          "py": 148121,
+          "page": ""
+        },
+        "net_income": {
+          "cy": 77574,
+          "py": 106324,
+          "page": ""
+        },
+        "interest_expense": {
+          "cy": 7943,
+          "py": 7409,
+          "page": ""
+        },
+        "depreciation_amortization": {
+          "cy": 16063,
+          "py": 28185,
+          "page": ""
+        },
+        "cash_and_equivalents": {
+          "cy": 39140,
+          "py": 25634,
+          "page": ""
+        },
+        "total_current_assets": {
+          "cy": 48382,
+          "py": 22073,
+          "page": ""
+        },
+        "total_current_liabilities": {
+          "cy": 17342,
+          "py": 83295,
+          "page": ""
+        },
+        "current_portion_ltd": {
+          "cy": 7433,
+          "py": 3092,
+          "page": ""
+        },
+        "long_term_debt": {
+          "cy": 76645,
+          "py": 77029,
+          "page": ""
+        },
+        "total_liabilities": {
+          "cy": 58023,
+          "py": 247174,
+          "page": ""
+        },
+        "stockholders_equity": {
+          "cy": 111027,
+          "py": 65270,
+          "page": ""
+        }
+      },
+      "ratio_exact": true,
+      "ratios": [
+        {
+          "interest_coverage": 15.059423391665618,
+          "current_ratio": 2.7898742936224195,
+          "debt_to_equity": 0.7572752573698289,
+          "debt_to_ebitda": 0.6196786556603774,
+          "net_margin": 0.11436347044349864
+        },
+        {
+          "interest_coverage": 19.9920367121069,
+          "current_ratio": 0.2649978990335554,
+          "debt_to_equity": 1.227531791021909,
+          "debt_to_ebitda": 0.45444284369221694,
+          "net_margin": 0.1256150855301166
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "record_exact": true,
+      "metadata_exact": false,
+      "gross_margin_tieout_failures": 0,
+      "error": null,
+      "extraction": {
+        "company": "SYNTHETIC CO",
+        "form_type": "10-K",
+        "fiscal_year_end": "June 30, 2026",
+        "not_found": [],
+        "total_revenue": {
+          "cy": 152034,
+          "py": 211573,
+          "page": "Total Revenue"
+        },
+        "gross_margin": {
+          "cy": 91848,
+          "py": 158126,
+          "page": "Gross Margin"
+        },
+        "research_and_development": {
+          "cy": 22230,
+          "py": 12922,
+          "page": "Research And Development"
+        },
+        "sales_and_marketing": {
+          "cy": 19515,
+          "py": 39155,
+          "page": "Sales And Marketing"
+        },
+        "general_and_administrative": {
+          "cy": 24905,
+          "py": 29469,
+          "page": "General And Administrative"
+        },
+        "operating_income": {
+          "cy": 25198,
+          "py": 76580,
+          "page": "Operating Income"
+        },
+        "net_income": {
+          "cy": 22563,
+          "py": 60905,
+          "page": "Net Income"
+        },
+        "interest_expense": {
+          "cy": 6489,
+          "py": 5004,
+          "page": "Interest Expense"
+        },
+        "depreciation_amortization": {
+          "cy": 9368,
+          "py": 22859,
+          "page": "Depreciation Amortization"
+        },
+        "cash_and_equivalents": {
+          "cy": 39089,
+          "py": 54432,
+          "page": "Cash And Equivalents"
+        },
+        "total_current_assets": {
+          "cy": 79086,
+          "py": 90799,
+          "page": "Total Current Assets"
+        },
+        "total_current_liabilities": {
+          "cy": 44302,
+          "py": 64679,
+          "page": "Total Current Liabilities"
+        },
+        "current_portion_ltd": {
+          "cy": 16633,
+          "py": 11885,
+          "page": "Current Portion Ltd"
+        },
+        "long_term_debt": {
+          "cy": 33749,
+          "py": 62548,
+          "page": "Long Term Debt"
+        },
+        "total_liabilities": {
+          "cy": 184705,
+          "py": 43858,
+          "page": "Total Liabilities"
+        },
+        "stockholders_equity": {
+          "cy": 89927,
+          "py": 144753,
+          "page": "Stockholders Equity"
+        }
+      },
+      "ratio_exact": true,
+      "ratios": [
+        {
+          "interest_coverage": 3.883186931730621,
+          "current_ratio": 1.7851564263464403,
+          "debt_to_equity": 0.5602544285920802,
+          "debt_to_ebitda": 1.4575594514841173,
+          "net_margin": 0.14840759303839932
+        },
+        {
+          "interest_coverage": 15.303756994404477,
+          "current_ratio": 1.4038405046460212,
+          "debt_to_equity": 0.514206959441255,
+          "debt_to_ebitda": 0.7485292490873802,
+          "net_margin": 0.2878675445354558
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "record_exact": true,
+      "metadata_exact": true,
+      "gross_margin_tieout_failures": 0,
+      "error": null,
+      "extraction": {
+        "company": "SYNTHETIC CO 00004",
+        "form_type": "10-K",
+        "fiscal_year_end": "June 30, 2026",
+        "not_found": [],
+        "total_revenue": {
+          "cy": 609593,
+          "py": 205669,
+          "page": "1"
+        },
+        "gross_margin": {
+          "cy": 377145,
+          "py": 103141,
+          "page": "1"
+        },
+        "research_and_development": {
+          "cy": 77251,
+          "py": 32112,
+          "page": "1"
+        },
+        "sales_and_marketing": {
+          "cy": 66011,
+          "py": 17228,
+          "page": "1"
+        },
+        "general_and_administrative": {
+          "cy": 88472,
+          "py": 14634,
+          "page": "1"
+        },
+        "operating_income": {
+          "cy": 145411,
+          "py": 39167,
+          "page": "1"
+        },
+        "net_income": {
+          "cy": 80114,
+          "py": 25693,
+          "page": "1"
+        },
+        "interest_expense": {
+          "cy": 11171,
+          "py": 8514,
+          "page": "1"
+        },
+        "depreciation_amortization": {
+          "cy": 13788,
+          "py": 29599,
+          "page": "1"
+        },
+        "cash_and_equivalents": {
+          "cy": 62285,
+          "py": 12956,
+          "page": "1"
+        },
+        "total_current_assets": {
+          "cy": 73977,
+          "py": 63658,
+          "page": "1"
+        },
+        "total_current_liabilities": {
+          "cy": 21989,
+          "py": 82870,
+          "page": "1"
+        },
+        "current_portion_ltd": {
+          "cy": 10298,
+          "py": 14698,
+          "page": "1"
+        },
+        "long_term_debt": {
+          "cy": 71546,
+          "py": 67159,
+          "page": "1"
+        },
+        "total_liabilities": {
+          "cy": 230395,
+          "py": 248326,
+          "page": "1"
+        },
+        "stockholders_equity": {
+          "cy": 179023,
+          "py": 54350,
+          "page": "1"
+        }
+      },
+      "ratio_exact": true,
+      "ratios": [
+        {
+          "interest_coverage": 13.01682929012622,
+          "current_ratio": 3.3642730456137158,
+          "debt_to_equity": 0.45717030772582296,
+          "debt_to_ebitda": 0.5140987066501674,
+          "net_margin": 0.1314221127867282
+        },
+        {
+          "interest_coverage": 4.600305379375147,
+          "current_ratio": 0.7681670085676361,
+          "debt_to_equity": 1.5061085556577738,
+          "debt_to_ebitda": 1.190370241107524,
+          "net_margin": 0.1249240284145885
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "record_exact": true,
+      "metadata_exact": true,
+      "gross_margin_tieout_failures": 0,
+      "error": null,
+      "extraction": {
+        "company": "SYNTHETIC CO 00005",
+        "form_type": "10-K",
+        "fiscal_year_end": "June 30, 2026",
+        "not_found": [],
+        "total_revenue": {
+          "cy": 166887,
+          "py": 293189,
+          "page": ""
+        },
+        "gross_margin": {
+          "cy": 100633,
+          "py": 109514,
+          "page": ""
+        },
+        "research_and_development": {
+          "cy": 11038,
+          "py": 40510,
+          "page": ""
+        },
+        "sales_and_marketing": {
+          "cy": 17289,
+          "py": 38622,
+          "page": ""
+        },
+        "general_and_administrative": {
+          "cy": 11623,
+          "py": 34243,
+          "page": ""
+        },
+        "operating_income": {
+          "cy": 60683,
+          "py": -3861,
+          "page": ""
+        },
+        "net_income": {
+          "cy": 46974,
+          "py": -3087,
+          "page": ""
+        },
+        "interest_expense": {
+          "cy": 2197,
+          "py": 3121,
+          "page": ""
+        },
+        "depreciation_amortization": {
+          "cy": 18745,
+          "py": 11163,
+          "page": ""
+        },
+        "cash_and_equivalents": {
+          "cy": 16245,
+          "py": 19798,
+          "page": ""
+        },
+        "total_current_assets": {
+          "cy": 58717,
+          "py": 131797,
+          "page": ""
+        },
+        "total_current_liabilities": {
+          "cy": 72909,
+          "py": 35675,
+          "page": ""
+        },
+        "current_portion_ltd": {
+          "cy": 12121,
+          "py": 16292,
+          "page": ""
+        },
+        "long_term_debt": {
+          "cy": 50267,
+          "py": 9857,
+          "page": ""
+        },
+        "total_liabilities": {
+          "cy": 247925,
+          "py": 76701,
+          "page": ""
+        },
+        "stockholders_equity": {
+          "cy": 194321,
+          "py": 144510,
+          "page": ""
+        }
+      },
+      "ratio_exact": true,
+      "ratios": [
+        {
+          "interest_coverage": 27.62084660901229,
+          "current_ratio": 0.8053463907062228,
+          "debt_to_equity": 0.3210563963750701,
+          "debt_to_ebitda": 0.7854660824898021,
+          "net_margin": 0.2814718941559259
+        },
+        {
+          "interest_coverage": -1.237103492470362,
+          "current_ratio": 3.6943798177995797,
+          "debt_to_equity": 0.18094941526537955,
+          "debt_to_ebitda": 3.581073678444262,
+          "net_margin": -0.010529044404803727
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "record_exact": true,
+      "metadata_exact": false,
+      "gross_margin_tieout_failures": 0,
+      "error": null,
+      "extraction": {
+        "company": "SYNTHETIC CO",
+        "form_type": "10-K",
+        "fiscal_year_end": "June 30, 2026",
+        "not_found": [],
+        "total_revenue": {
+          "cy": 542295,
+          "py": 303321,
+          "page": "Total Revenue"
+        },
+        "gross_margin": {
+          "cy": 209271,
+          "py": 139455,
+          "page": "Gross Margin"
+        },
+        "research_and_development": {
+          "cy": 47339,
+          "py": 38845,
+          "page": "Research And Development"
+        },
+        "sales_and_marketing": {
+          "cy": 30055,
+          "py": 30504,
+          "page": "Sales And Marketing"
+        },
+        "general_and_administrative": {
+          "cy": 75450,
+          "py": 50540,
+          "page": "General And Administrative"
+        },
+        "operating_income": {
+          "cy": 56427,
+          "py": 19566,
+          "page": "Operating Income"
+        },
+        "net_income": {
+          "cy": 40921,
+          "py": 11931,
+          "page": "Net Income"
+        },
+        "interest_expense": {
+          "cy": 6677,
+          "py": 3113,
+          "page": "Interest Expense"
+        },
+        "depreciation_amortization": {
+          "cy": 5685,
+          "py": 4454,
+          "page": "Depreciation Amortization"
+        },
+        "cash_and_equivalents": {
+          "cy": 14111,
+          "py": 43927,
+          "page": "Cash And Equivalents"
+        },
+        "total_current_assets": {
+          "cy": 123078,
+          "py": 98418,
+          "page": "Total Current Assets"
+        },
+        "total_current_liabilities": {
+          "cy": 23254,
+          "py": 16937,
+          "page": "Total Current Liabilities"
+        },
+        "current_portion_ltd": {
+          "cy": 1722,
+          "py": 17890,
+          "page": "Current Portion Ltd"
+        },
+        "long_term_debt": {
+          "cy": 34752,
+          "py": 22120,
+          "page": "Long Term Debt"
+        },
+        "total_liabilities": {
+          "cy": 174133,
+          "py": 171625,
+          "page": "Total Liabilities"
+        },
+        "stockholders_equity": {
+          "cy": 95539,
+          "py": 193951,
+          "page": "Stockholders Equity"
+        }
+      },
+      "ratio_exact": true,
+      "ratios": [
+        {
+          "interest_coverage": 8.45095102590984,
+          "current_ratio": 5.292766835813193,
+          "debt_to_equity": 0.381770795172652,
+          "debt_to_ebitda": 0.5872295208655333,
+          "net_margin": 0.07545892918061203
+        },
+        {
+          "interest_coverage": 6.2852553806617415,
+          "current_ratio": 5.810828363936943,
+          "debt_to_equity": 0.20628921737964745,
+          "debt_to_ebitda": 1.6656952539550374,
+          "net_margin": 0.039334566350499964
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "record_exact": false,
+      "metadata_exact": false,
+      "gross_margin_tieout_failures": 2,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "extraction": {},
+      "ratio_exact": false,
+      "ratios": null
+    },
+    {
+      "id": 8,
+      "record_exact": true,
+      "metadata_exact": false,
+      "gross_margin_tieout_failures": 0,
+      "error": null,
+      "extraction": {
+        "company": "SYNTHETIC CO",
+        "form_type": "10-K",
+        "fiscal_year_end": "June 30, 2026",
+        "not_found": [],
+        "total_revenue": {
+          "cy": 122177,
+          "py": 547397,
+          "page": ""
+        },
+        "gross_margin": {
+          "cy": 72158,
+          "py": 195673,
+          "page": ""
+        },
+        "research_and_development": {
+          "cy": 10296,
+          "py": 39491,
+          "page": ""
+        },
+        "sales_and_marketing": {
+          "cy": 6661,
+          "py": 92159,
+          "page": ""
+        },
+        "general_and_administrative": {
+          "cy": 20730,
+          "py": 37136,
+          "page": ""
+        },
+        "operating_income": {
+          "cy": 34471,
+          "py": 26887,
+          "page": ""
+        },
+        "net_income": {
+          "cy": 26329,
+          "py": 17104,
+          "page": ""
+        },
+        "interest_expense": {
+          "cy": 9890,
+          "py": 9015,
+          "page": ""
+        },
+        "depreciation_amortization": {
+          "cy": 4948,
+          "py": 25732,
+          "page": ""
+        },
+        "cash_and_equivalents": {
+          "cy": 34276,
+          "py": 29961,
+          "page": ""
+        },
+        "total_current_assets": {
+          "cy": 94745,
+          "py": 116233,
+          "page": ""
+        },
+        "total_current_liabilities": {
+          "cy": 47141,
+          "py": 23229,
+          "page": ""
+        },
+        "current_portion_ltd": {
+          "cy": 3726,
+          "py": 12636,
+          "page": ""
+        },
+        "long_term_debt": {
+          "cy": 44087,
+          "py": 43369,
+          "page": ""
+        },
+        "total_liabilities": {
+          "cy": 65854,
+          "py": 63694,
+          "page": ""
+        },
+        "stockholders_equity": {
+          "cy": 54221,
+          "py": 193473,
+          "page": ""
+        }
+      },
+      "ratio_exact": true,
+      "ratios": [
+        {
+          "interest_coverage": 3.4854398382204246,
+          "current_ratio": 2.0098215990326893,
+          "debt_to_equity": 0.8818170081702661,
+          "debt_to_ebitda": 1.2129429970318881,
+          "net_margin": 0.2154988254745165
+        },
+        {
+          "interest_coverage": 2.982473655019412,
+          "current_ratio": 5.003788367988291,
+          "debt_to_equity": 0.2894719159779401,
+          "debt_to_ebitda": 1.064349379501701,
+          "net_margin": 0.03124606090278171
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "record_exact": true,
+      "metadata_exact": false,
+      "gross_margin_tieout_failures": 0,
+      "error": null,
+      "extraction": {
+        "company": "SYNTHETIC CO",
+        "form_type": "10-K",
+        "fiscal_year_end": "June 30, 2026",
+        "not_found": [],
+        "total_revenue": {
+          "cy": 180502,
+          "py": 501312,
+          "page": "10-K"
+        },
+        "gross_margin": {
+          "cy": 102285,
+          "py": 196779,
+          "page": "10-K"
+        },
+        "research_and_development": {
+          "cy": 13627,
+          "py": 55944,
+          "page": "10-K"
+        },
+        "sales_and_marketing": {
+          "cy": 24740,
+          "py": 52095,
+          "page": "10-K"
+        },
+        "general_and_administrative": {
+          "cy": 34145,
+          "py": 37718,
+          "page": "10-K"
+        },
+        "operating_income": {
+          "cy": 29773,
+          "py": 51022,
+          "page": "10-K"
+        },
+        "net_income": {
+          "cy": 24457,
+          "py": 31436,
+          "page": "10-K"
+        },
+        "interest_expense": {
+          "cy": 10399,
+          "py": 3517,
+          "page": "10-K"
+        },
+        "depreciation_amortization": {
+          "cy": 17528,
+          "py": 10159,
+          "page": "10-K"
+        },
+        "cash_and_equivalents": {
+          "cy": 34900,
+          "py": 63671,
+          "page": "10-K"
+        },
+        "total_current_assets": {
+          "cy": 129815,
+          "py": 43701,
+          "page": "10-K"
+        },
+        "total_current_liabilities": {
+          "cy": 89404,
+          "py": 55635,
+          "page": "10-K"
+        },
+        "current_portion_ltd": {
+          "cy": 12934,
+          "py": 16862,
+          "page": "10-K"
+        },
+        "long_term_debt": {
+          "cy": 28889,
+          "py": 50998,
+          "page": "10-K"
+        },
+        "total_liabilities": {
+          "cy": 81878,
+          "py": 238033,
+          "page": "10-K"
+        },
+        "stockholders_equity": {
+          "cy": 185780,
+          "py": 117780,
+          "page": "10-K"
+        }
+      },
+      "ratio_exact": true,
+      "ratios": [
+        {
+          "interest_coverage": 2.8630637561303973,
+          "current_ratio": 1.4520043845912936,
+          "debt_to_equity": 0.22512111099149532,
+          "debt_to_ebitda": 0.8841884949578233,
+          "net_margin": 0.13549434355298
+        },
+        {
+          "interest_coverage": 14.507250497583167,
+          "current_ratio": 0.785494742518199,
+          "debt_to_equity": 0.5761589403973509,
+          "debt_to_ebitda": 1.109167878916657,
+          "net_margin": 0.06270745563641006
+        }
+      ]
+    }
+  ],
+  "prompt_sha256": "fe03cc373c024b55b0de6b69a96700c111167f1422e4e02778ae36deef8b6097",
+  "ratio_accuracy": 0.7,
+  "ratio_values_correct": 70,
+  "ratio_values_total": 100,
+  "ratio_exact_records": 7,
+  "opencode_sessions_matched": 10
+}

@@ -1,0 +1,98 @@
+{
+  "seed": 20261020,
+  "generator": "src/benchmark.py:iter_generate",
+  "schema_version": "source-16-fields-v1",
+  "datasets": {
+    "1": {
+      "records": 1,
+      "inputs": "statements-1.jsonl",
+      "inputs_sha256": "7086f2a007fdc26efde1928c6f8bac424f601f9202507e63d5ec0cccd7d20b82",
+      "ground_truth": "ground-truth-1.jsonl",
+      "ground_truth_sha256": "9cca5378bfe8f36d3d23da8ba87552a335cd7afdbe0079522304e40cf3d95ad6"
+    },
+    "10": {
+      "records": 10,
+      "inputs": "statements-10.jsonl",
+      "inputs_sha256": "007bc06266735d799598492ad8784afa62f1e2244a3686d2c0599e114df607b4",
+      "ground_truth": "ground-truth-10.jsonl",
+      "ground_truth_sha256": "f97bb21f7efff08dff1eee43aa7e656d018a6549b68db9a0bb51398cdad75e44"
+    },
+    "100": {
+      "records": 100,
+      "inputs": "statements-100.jsonl",
+      "inputs_sha256": "be844a2b20347a39f832385bdc0f1d5f777090df19cabd6e7895c75f776a05d0",
+      "ground_truth": "ground-truth-100.jsonl",
+      "ground_truth_sha256": "37343f08bd9e3252167b71966bd54c9ef89dcb980449bbe826d743a17d633145"
+    },
+    "1000": {
+      "records": 1000,
+      "inputs": "statements-1000.jsonl",
+      "inputs_sha256": "85f066b3941d638b331bb0ea895b8033699ef9017ea4b2e92f3d82ad169b5582",
+      "ground_truth": "ground-truth-1000.jsonl",
+      "ground_truth_sha256": "50ca2d2d1564aa14cac952492dfa2c77c025e8405e98fe494861669b3a96295a"
+    },
+    "10000": {
+      "records": 10000,
+      "inputs": "statements-10000.jsonl",
+      "inputs_sha256": "29338d77a06e72493dca784ffaf92249a56abefb142e82efaa0fb1001846aeef",
+      "ground_truth": "ground-truth-10000.jsonl",
+      "ground_truth_sha256": "08e781a76e0bfa36f85e09da6c118946030aeb3f643d7a9f734b501f91740477"
+    },
+    "100000": {
+      "records": 100000,
+      "inputs": "statements-100000.jsonl",
+      "inputs_sha256": "bf2c757dd443ee69541701f43e7a1a156598a723fda6810ea3baefdf53a28337",
+      "ground_truth": "ground-truth-100000.jsonl",
+      "ground_truth_sha256": "1d12c45f2e541b4936540f0d5230c45d27bf9117b1b56c10c31a229af37c3add"
+    },
+    "1000000": {
+      "records": 1000000,
+      "inputs": "statements-1000000.jsonl",
+      "inputs_sha256": "7922c80073080d00b2436a842a59f7042c31d2740e1a84233fa5c40d8ef38c21",
+      "ground_truth": "ground-truth-1000000.jsonl",
+      "ground_truth_sha256": "ad49d93c66d6c71e9e634bacceee668d475cb42f32cfb759991f5c8634848fbd"
+    },
+    "filing-like-10000": {
+      "records": 10000,
+      "profile": "filing-like",
+      "inputs": "statements-filing-like-10000.jsonl",
+      "inputs_sha256": "80315768c7c6aa45cd0bc71d3b8b20959461f278ccdda9087f17fab1cfa8e44f",
+      "ground_truth": "ground-truth-filing-like-10000.jsonl",
+      "ground_truth_sha256": "08e781a76e0bfa36f85e09da6c118946030aeb3f643d7a9f734b501f91740477"
+    },
+    "quality-mix-10000": {
+      "records": 10000,
+      "profile": "quality-mix",
+      "inputs": "statements-quality-mix-10000.jsonl",
+      "ground_truth": "ground-truth-quality-mix-10000.jsonl",
+      "inputs_sha256": "d288e317576cc95a3ccaaa8ffd80cd0da42ac0a6b549d22fb595c42e5fbc0bbb",
+      "ground_truth_sha256": "ed89602f6a34317187521b3dd4aa74dc9ac4724a58899f607e596d1efae6f331",
+      "qa_sha256": "e767ed1fc938ff455b97027ac8e9a121554d50006f04e35c5a523ef9160012a7",
+      "quality_assurance": {
+        "tier_records": {
+          "50": 3333,
+          "75": 3333,
+          "100": 3334
+        },
+        "exact_numeric_fields": {
+          "50": 53328,
+          "75": 79992,
+          "100": 106688
+        },
+        "numeric_fields_per_tier": {
+          "50": 106656,
+          "75": 106656,
+          "100": 106688
+        },
+        "defect_counts": {
+          "adjacent_line_value": 15751,
+          "ocr_digit": 16008,
+          "unit_scale": 15976,
+          "period_misalignment": 16234,
+          "decimal_shift": 16023
+        }
+      },
+      "qa": "qa-quality-mix-10000.jsonl"
+    }
+  }
+}

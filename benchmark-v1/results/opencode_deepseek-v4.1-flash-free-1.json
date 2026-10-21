@@ -1,0 +1,150 @@
+{
+  "records": 1,
+  "dataset_inputs": "data\\statements-1.jsonl",
+  "dataset_sha256": "7086f2a007fdc26efde1928c6f8bac424f601f9202507e63d5ec0cccd7d20b82",
+  "truth_sha256": "9cca5378bfe8f36d3d23da8ba87552a335cd7afdbe0079522304e40cf3d95ad6",
+  "model": "opencode/deepseek-v4.1-flash-free",
+  "provider_route": "opencode",
+  "elapsed_seconds": 4.41514549999556,
+  "extraction_seconds": 4.415086399996653,
+  "records_per_second": 0.22649310198293704,
+  "field_accuracy": 1.0,
+  "fields_correct": 32,
+  "fields_total": 32,
+  "record_exact_accuracy": 1.0,
+  "metadata_exact_records": 1,
+  "metadata_accuracy": 1.0,
+  "tieout_failures": 0,
+  "control_failures": 0,
+  "schema_failures": 0,
+  "missing_field_records": 0,
+  "incorrect_field_values": 0,
+  "prompt_tokens": 11415,
+  "completion_tokens": 908,
+  "total_tokens": 12323,
+  "token_usage_available": true,
+  "inference_cost_usd": 0.0,
+  "priced_calls": 1,
+  "failed_calls": 0,
+  "errors": [],
+  "ratios_deterministic": true,
+  "status": "completed",
+  "details": [
+    {
+      "id": 0,
+      "record_exact": true,
+      "metadata_exact": true,
+      "gross_margin_tieout_failures": 0,
+      "error": null,
+      "extraction": {
+        "company": "SYNTHETIC CO 00000",
+        "form_type": "10-K",
+        "fiscal_year_end": "June 30, 2026",
+        "not_found": [],
+        "total_revenue": {
+          "cy": 582049,
+          "py": 773500,
+          "page": ""
+        },
+        "gross_margin": {
+          "cy": 394171,
+          "py": 336511,
+          "page": ""
+        },
+        "research_and_development": {
+          "cy": 27637,
+          "py": 110701,
+          "page": ""
+        },
+        "sales_and_marketing": {
+          "cy": 72337,
+          "py": 55849,
+          "page": ""
+        },
+        "general_and_administrative": {
+          "cy": 77559,
+          "py": 54207,
+          "page": ""
+        },
+        "operating_income": {
+          "cy": 216638,
+          "py": 115754,
+          "page": ""
+        },
+        "net_income": {
+          "cy": 137816,
+          "py": 67322,
+          "page": ""
+        },
+        "interest_expense": {
+          "cy": 4144,
+          "py": 10819,
+          "page": ""
+        },
+        "depreciation_amortization": {
+          "cy": 22977,
+          "py": 18288,
+          "page": ""
+        },
+        "cash_and_equivalents": {
+          "cy": 24003,
+          "py": 20074,
+          "page": ""
+        },
+        "total_current_assets": {
+          "cy": 26616,
+          "py": 25111,
+          "page": ""
+        },
+        "total_current_liabilities": {
+          "cy": 35737,
+          "py": 29925,
+          "page": ""
+        },
+        "current_portion_ltd": {
+          "cy": 9828,
+          "py": 16254,
+          "page": ""
+        },
+        "long_term_debt": {
+          "cy": 58346,
+          "py": 41055,
+          "page": ""
+        },
+        "total_liabilities": {
+          "cy": 223994,
+          "py": 226465,
+          "page": ""
+        },
+        "stockholders_equity": {
+          "cy": 74076,
+          "py": 199750,
+          "page": ""
+        }
+      },
+      "ratio_exact": true,
+      "ratios": [
+        {
+          "interest_coverage": 52.27750965250965,
+          "current_ratio": 0.7447743235302348,
+          "debt_to_equity": 0.9203250715481397,
+          "debt_to_ebitda": 0.2845147423992655,
+          "net_margin": 0.23677731599916846
+        },
+        {
+          "interest_coverage": 10.699140401146131,
+          "current_ratio": 0.8391311612364244,
+          "debt_to_equity": 0.28690362953692117,
+          "debt_to_ebitda": 0.42754509780516553,
+          "net_margin": 0.08703555268261151
+        }
+      ]
+    }
+  ],
+  "prompt_sha256": "fe03cc373c024b55b0de6b69a96700c111167f1422e4e02778ae36deef8b6097",
+  "ratio_accuracy": 1.0,
+  "ratio_values_correct": 10,
+  "ratio_values_total": 10,
+  "ratio_exact_records": 1,
+  "opencode_sessions_matched": 1
+}

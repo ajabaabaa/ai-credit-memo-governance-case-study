@@ -1,0 +1,10 @@
+model,quality_tier,records,field_accuracy_source,field_accuracy_latent,ratio_accuracy_source,ratio_accuracy_latent,control_failures,tieout_failures
+ollama/qwen3.5-9b-16k:latest,50,8,0.9921875,0.4921875,0.875,0.1375,8,16
+ollama/qwen3.5-9b-16k:latest,75,8,0.99609375,0.75390625,0.9875,0.45,8,13
+ollama/qwen3.5-9b-16k:latest,100,8,0.9921875,0.9921875,0.875,0.875,8,0
+opencode/deepseek-v4.1-flash-free,50,8,1.0,0.5,1.0,0.1625,8,16
+opencode/deepseek-v4.1-flash-free,75,8,1.0,0.75,1.0,0.4375,8,13
+opencode/deepseek-v4.1-flash-free,100,8,1.0,1.0,1.0,1.0,1,0
+openrouter/minimax/minimax-m3.1-flash:free,50,8,1.0,0.5,1.0,0.1625,8,16
+openrouter/minimax/minimax-m3.1-flash:free,75,8,1.0,0.75,1.0,0.4375,8,13
+openrouter/minimax/minimax-m3.1-flash:free,100,8,1.0,1.0,1.0,1.0,3,0

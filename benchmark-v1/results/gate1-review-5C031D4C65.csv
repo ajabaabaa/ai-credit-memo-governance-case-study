@@ -1,0 +1,19 @@
+﻿review_run_id,blinded_case_id,statement_text,extracted_json,borrower_matches_intake,latest_fiscal_year,no_missing_fields,tieout_both_years_pass,two_figures_spot_checked,reviewer_decision,reviewer_correction_json,review_reason,sendback_count,escalated
+5C031D4C65,CASE-00000,"SYNTHETIC CO 00000 | Form 10-K | FY end June 30, 2026
+Total Revenue | 582049 | 773500
+Gross Margin | 394171 | 336511
+Research And Development | 27637 | 110701
+Sales And Marketing | 72337 | 55849
+General And Administrative | 77559 | 54207
+Operating Income | 216638 | 115754
+Net Income | 137816 | 67322
+Interest Expense | 4144 | 10819
+Depreciation Amortization | 22977 | 18288
+Cash And Equivalents | 24003 | 20074
+Total Current Assets | 26616 | 25111
+Total Current Liabilities | 35737 | 29925
+Current Portion Ltd | 9828 | 16254
+Long Term Debt | 58346 | 41055
+Total Liabilities | 223994 | 226465
+Stockholders Equity | 74076 | 199750
+Lease Interest Expense | 999 | 888","{""company"":""SYNTHETIC CO 00000"",""form_type"":""10-K"",""fiscal_year_end"":""2026-06-30"",""not_found"":[],""total_revenue"":{""cy"":582049,""py"":773500,""page"":""not_found""},""gross_margin"":{""cy"":394171,""py"":336511,""page"":""not_found""},""research_and_development"":{""cy"":27637,""py"":110701,""page"":""not_found""},""sales_and_marketing"":{""cy"":72337,""py"":55849,""page"":""not_found""},""general_and_administrative"":{""cy"":77559,""py"":54207,""page"":""not_found""},""operating_income"":{""cy"":216638,""py"":115754,""page"":""not_found""},""net_income"":{""cy"":137816,""py"":67322,""page"":""not_found""},""interest_expense"":{""cy"":4144,""py"":10819,""page"":""not_found""},""depreciation_amortization"":{""cy"":22977,""py"":18288,""page"":""not_found""},""cash_and_equivalents"":{""cy"":24003,""py"":20074,""page"":""not_found""},""total_current_assets"":{""cy"":26616,""py"":25111,""page"":""not_found""},""total_current_liabilities"":{""cy"":35737,""py"":29925,""page"":""not_found""},""current_portion_ltd"":{""cy"":9828,""py"":16254,""page"":""not_found""},""long_term_debt"":{""cy"":58346,""py"":41055,""page"":""not_found""},""total_liabilities"":{""cy"":223994,""py"":226465,""page"":""not_found""},""stockholders_equity"":{""cy"":74076,""py"":199750,""page"":""not_found""}}",,,,,,,,,0,

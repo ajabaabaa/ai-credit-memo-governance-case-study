@@ -1,0 +1,55 @@
+{
+  "cap_usd": 2.0,
+  "spent_usd": 1.8345342960000002,
+  "reserved_usd": 0.0,
+  "entries": [
+    {
+      "call_id": "70797f8eb26c391d",
+      "model": "openrouter/deepseek/deepseek-v3.2",
+      "record_id": 30,
+      "reserved_usd": 0.00129192,
+      "status": "settled",
+      "actual_or_conservative_usd": 0.000681047
+    },
+    {
+      "call_id": "3a037a1b0967a169",
+      "model": "openrouter/deepseek/deepseek-v3.2",
+      "record_id": 46,
+      "reserved_usd": 0.00128772,
+      "status": "conservative charge after failed/unknown response",
+      "actual_or_conservative_usd": 0.00128772
+    },
+    {
+      "call_id": "daac60da434500c0",
+      "model": "openai/gpt-oss-20b:batch",
+      "records": 10000,
+      "reserved_usd": 0.9027378688,
+      "status": "settled batch cost",
+      "batch_id": "batch-1792542770-Y1hYmOYzXS1G1f8JlNBd",
+      "provider": "DeepInfra",
+      "actual_or_conservative_usd": 0.883748224,
+      "provider_status": "completed",
+      "request_counts": {
+        "total": 10000,
+        "completed": 10000,
+        "failed": 0
+      }
+    },
+    {
+      "call_id": "2ff3882e0fed84b8",
+      "model": "mistralai/ministral-8b-2512:batch",
+      "records": 10000,
+      "reserved_usd": 1.0610558399999999,
+      "status": "settled batch cost",
+      "batch_id": "batch-1792542817-YrzXIh7aAfn7TzvgfCOO",
+      "provider": "Mistral",
+      "actual_or_conservative_usd": 0.948817305,
+      "provider_status": "completed",
+      "request_counts": {
+        "total": 10000,
+        "completed": 10000,
+        "failed": 0
+      }
+    }
+  ]
+}
